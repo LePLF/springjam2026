@@ -60,7 +60,7 @@ public class playerController : MonoBehaviour
             else
             {
                 print("mouche");
-                target.gameObject.GetComponent<targetableController>().TakeDamage(damageValue, playerIndex);
+                target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
             }
         }
     }

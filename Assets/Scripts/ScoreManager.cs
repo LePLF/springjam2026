@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
     [Header("Bloom Score")]
     public float scoreToEnd = 100f;
     public float scoreToLose = -100f;
-    private float currentScore;
+    public float currentScore;
     public UnityEvent onGainBloom;
     public UnityEvent onLoseBloom;
 
@@ -26,11 +26,12 @@ public class ScoreManager : MonoBehaviour
     {
         player1Score = 0;
         player2Score = 0;
-        currentScore = scoreToEnd;
+        currentScore = 0;
     }
 
-    public void ApplyScore(int scoreValue)
+    public void ApplyBloom(int scoreValue)
     {
+        print(scoreValue);
         if (scoreValue < 0)
         {
             currentScore -= scoreValue;

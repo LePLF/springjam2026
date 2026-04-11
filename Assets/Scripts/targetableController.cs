@@ -4,13 +4,11 @@ using UnityEngine.Events;
 
 public class targetableController : MonoBehaviour
 {
-    public float health = 1f;
-    public float moveSpeed = 1f;
-    private float currentHealth;
+    public TargetableData CreatureData;
 
-    public int scoreValue = 1;
-    public int bloomValue = 5;
-    public UnityEvent OnTakeDamage;
+    private float moveSpeed;
+
+    private int bloomValue = 5;
     public UnityEvent OnDeath;
     public GameObject PathManager;
     private PointsList points;
@@ -22,24 +20,16 @@ public class targetableController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        moveSpeed = CreatureData.moveSpeed;
+        bloomValue = CreatureData.bloomValue;
+        print(bloomValue);
         points = PathManager.GetComponent<PointsList>();
-        currentHealth = health;
         score = scoreManager.GetComponent<ScoreManager>();
 
         StartCoroutine(FollowPath());
     }
 
-    public void TakeDamage(float damage, int playerIndex)
-    {
-        print("ouille");
-        health -= damage;
-        if (health <= 0)
-        {
-            score.ApplyPlayerScore(playerIndex, scoreValue);
-            OnDeath.Invoke();
-        }
-        else OnTakeDamage.Invoke();
-    }
+
     private IEnumerator FollowPath()
     {
         int currentList = 0;
@@ -67,14 +57,8 @@ public class targetableController : MonoBehaviour
 
     void ReachFlower()
     {
-        score.ApplyScore(scoreValue);
+        score.ApplyBloom(bloomValue);
         Destroy(gameObject);
     }
 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
