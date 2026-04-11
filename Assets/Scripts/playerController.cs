@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements;
 
 public class playerController : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class playerController : MonoBehaviour
     public GameObject scoreManager;
     public ScoreManager score;
     public bool isOnMenu;
+    //private MoovButtton buttonInstance;
 
 
 
@@ -66,7 +68,7 @@ public class playerController : MonoBehaviour
                 print("mouche");
                 if (isOnMenu==true)
                 {
-                    //target.GetComponent<MooveButton>()
+                    target.GetComponent<MoovButton>().LoadSceneOnSwitch();
                 }
                 else
                 {
