@@ -29,7 +29,7 @@ public class CreatureSpawner : MonoBehaviour
             totalWeight += moush.moushSpawnWeight;
             moush.combinedWeight = totalWeight;
         }
-
+    }
     private GameObject GetRandomMoush(ref float cooldown)
     {
         int random = Random.Range(0, totalWeight);
