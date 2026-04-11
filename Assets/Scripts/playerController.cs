@@ -1,9 +1,14 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class playerController : MonoBehaviour
 {
+
+    [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
+    private float currentMoveSpeed;
 
     [SerializeField] private bool isPlayer2;
 
@@ -14,6 +19,11 @@ public class playerController : MonoBehaviour
     public LayerMask attackLayerMask;
     public Vector2 boxSize;
     public UnityEvent OnStun;
+    public float attackCooldown;
+    private float lastAttackTime;
+    [SerializeField]private float stunDuration;
+    private bool isStunned;
+
 
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -25,11 +35,14 @@ public class playerController : MonoBehaviour
 
     void Start()
     {
-        
+        currentMoveSpeed = moveSpeed;
     }
 
     public void StartAttack()
     {
+        if (isStunned) return;
+        if (!CooldownCheck(attackCooldown)) return;
+
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
         
@@ -37,8 +50,7 @@ public class playerController : MonoBehaviour
         {
             if (target.gameObject == otherPlayer)
             {
-                print(playerIndex);
-                print(target.GetComponent<playerController>().playerIndex);
+                target.GetComponent<playerController>().TriggerStun();
             }
             else
             {
@@ -47,14 +59,39 @@ public class playerController : MonoBehaviour
         }
     }
 
-    public void Stun()
+    IEnumerator Stun()
     {
-        OnStun.Invoke();
-        //movementSpeed;
+        isStunned = true;
+        print("ca stun");
+        yield return new WaitForSeconds(stunDuration);
+        print("stun fini");
+        isStunned = false;
     }
+
+    public void TriggerStun()
+    {
+        if (!isStunned)
+        {
+            OnStun.Invoke();
+            StartCoroutine(Stun());
+
+        }
+
+        
+    }
+
+
+    public bool CooldownCheck(float cooldown)
+    {
+        return Time.time >= lastAttackTime + cooldown;
+    }
+
+
     // Update is called once per frame
     void Update()
     {
+        
+        if (isStunned) return;
         if(isPlayer2)
         {
             movement.Set(playerinputManager.p2Movement.x, playerinputManager.p2Movement.y);
@@ -64,7 +101,7 @@ public class playerController : MonoBehaviour
             movement.Set(playerinputManager.p1Movement.x, playerinputManager.p1Movement.y);
         }
 
-        rb.linearVelocity = movement * moveSpeed;
+        rb.linearVelocity = movement * currentMoveSpeed;
 
     }
 

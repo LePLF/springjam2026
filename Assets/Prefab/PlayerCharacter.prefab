@@ -145,7 +145,12 @@ MonoBehaviour:
   attackLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  xyBoxHalfsize: {x: 0, y: 0}
+  boxSize: {x: 0, y: 0}
+  OnStun:
+    m_PersistentCalls:
+      m_Calls: []
+  attackCooldown: 1
+  stunDuration: 2
 --- !u!50 &6951996225712544926
 Rigidbody2D:
   serializedVersion: 5
