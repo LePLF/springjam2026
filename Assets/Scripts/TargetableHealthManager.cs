@@ -11,7 +11,6 @@ public class TargetableHealthManager : MonoBehaviour
     public TargetableData creatureData;
     public ParticleSystem onDeathEffect;
 
-    private SpriteRenderer spriteRenderer;
     private float moveSpeed;
     private float jitterSpeed;
     private float currentHealth;
@@ -33,11 +32,6 @@ public class TargetableHealthManager : MonoBehaviour
         currentHealth = creatureData.maxHealth;
         moveSpeed = creatureData.moveSpeed;
         jitterSpeed = creatureData.JitterSpeed;
-
-        score = scoreManager.GetComponent<ScoreManager>();
-
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        spriteRenderer.sprite = creatureData.creatureSprite;
 
         StartCoroutine(MoveToRandomPoint());
     }

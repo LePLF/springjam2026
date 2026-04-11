@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class CreatureSpawner : MonoBehaviour
 {
+    [Header("Refs")]
+    public GameObject pathManager;
+    public GameObject scoreManager;
+
+
     [Header("Spawned Entities")]
     public GameObject baseMoush;
     public MoushSpawnData[] spawnList;
@@ -15,6 +20,7 @@ public class CreatureSpawner : MonoBehaviour
     private float lastAttackTime;
     public bool isGameEnded;
     private int totalWeight;
+    private GameObject instantiatedFly;
 
     public bool CooldownCheck(float cooldown)
     {
@@ -35,6 +41,7 @@ public class CreatureSpawner : MonoBehaviour
         int random = Random.Range(0, totalWeight);
         foreach(MoushSpawnData moush in spawnList)
         {
+            
             if (random < moush.combinedWeight) return moush.moushPrefab;
         }
 
@@ -46,8 +53,13 @@ public class CreatureSpawner : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(moushSpawnCooldown);
+           
 
-           Instantiate(GetRandomMoush(ref moushSpawnCooldown));
+            instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown));
+
+            instantiatedFly.GetComponent<targetableController>().PathManager = pathManager;
+            instantiatedFly.GetComponent<targetableController>().scoreManager = scoreManager;
+            instantiatedFly.GetComponentInChildren<TargetableHealthManager>().scoreManager = scoreManager;
 
             if (isGameEnded)
             {         

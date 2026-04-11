@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 666261977915455655, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 666261977915455655, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.6875
+      objectReference: {fileID: 0}
     - target: {fileID: 967399959412617340, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: onDeathEffect
       value: 
@@ -52,6 +60,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoucheTemplate_MaxiMoush
       objectReference: {fileID: 0}
+    - target: {fileID: 3028793357294174282, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ead07967c1168fa44be72f934090a8ec, type: 2}
+    - target: {fileID: 6689658933170896580, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4713176420050598035, guid: da1b8c0d267145548a357ed203cfe077, type: 3}
     - target: {fileID: 6906604787447143030, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.1228

@@ -50,8 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1674218296236322627, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_Name
-      value: MoucheTemplate Variant
+      value: MoucheTemplate_ZebraMoush
       objectReference: {fileID: 0}
+    - target: {fileID: 3028793357294174282, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5df035183be12fe4287649c82ccd601a, type: 2}
+    - target: {fileID: 6689658933170896580, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4004253615469966495, guid: 868fc49ad48a1b74e97c8e2371095cb4, type: 3}
     - target: {fileID: 6906604787447143030, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.1228
@@ -95,7 +103,7 @@ PrefabInstance:
     - target: {fileID: 7539831138135456792, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: CreatureData
       value: 
-      objectReference: {fileID: 11400000, guid: 99da93890dce4e74f834afc5fe037e09, type: 2}
+      objectReference: {fileID: 11400000, guid: 7dfe06d233182b34eb1ae22df804ad76, type: 2}
     - target: {fileID: 7539831138135456792, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
       value: 1
