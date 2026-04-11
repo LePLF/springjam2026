@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a51ba9db1eb70a408080136022788ff, type: 3}
+  m_Name: Moush_Mexican
+  m_EditorClassIdentifier: Assembly-CSharp::MoushSpawnData
+  moushPrefab: {fileID: 5334677949605878692, guid: 1fb8b8f99cadcdf4286e1ab41a063e0b, type: 3}
+  moushSpawnWeight: 50
+  combinedWeight: 0
+  cooldown: 0.1
