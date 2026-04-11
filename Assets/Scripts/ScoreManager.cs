@@ -26,6 +26,8 @@ public class ScoreManager : MonoBehaviour
     [Header("Game State")]
     public UnityEvent onGameLost;
     public UnityEvent onGameEnd;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -80,15 +82,15 @@ public class ScoreManager : MonoBehaviour
 
     }
 
-    public void AddEnemyToPlayerScoreArray(int playerIndex, GameObject mouche)
+    public void AddEnemyToPlayerScoreArray(int playerIndex, EMoucheID moucheID)
     {
         if (playerIndex < 0)
         {
-            player2Kills.Add(mouche);
+
         }
         else
         {
-            player1Kills.Add(mouche);
+           
         }
     }
 

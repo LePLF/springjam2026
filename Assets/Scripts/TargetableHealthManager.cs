@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class TargetableHealthManager : MonoBehaviour
 {
+    public EMoucheID MoucheID;
+
     public TargetableData creatureData;
     public ParticleSystem onDeathEffect;
 

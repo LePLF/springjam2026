@@ -277,7 +277,7 @@ MonoBehaviour:
   spawnList:
   - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
   - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
-  spawnerCooldown: 0
+  spawnerBaseCooldown: 0
   maxSpawnedEntities: 0
   isGameEnded: 0
 --- !u!1 &343386020
@@ -723,7 +723,7 @@ Transform:
   m_GameObject: {fileID: 1203251580}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.84735, y: 0.38564, z: 0}
+  m_LocalPosition: {x: 0.15264988, y: 0.38564, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1270,6 +1270,8 @@ MonoBehaviour:
       m_Calls: []
   player1Score: 0
   player2Score: 0
+  player1Kills: []
+  player2Kills: []
   onGameLost:
     m_PersistentCalls:
       m_Calls: []
