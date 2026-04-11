@@ -1,0 +1,2772 @@
+fileFormatVersion: 2
+guid: 7ab864ce34c3781429bcbbf4911c6df3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1563127504509306570
+    second: moucheflower_0
+  - first:
+      213: -1343073852817992209
+    second: moucheflower_1
+  - first:
+      213: -4940576460126345464
+    second: moucheflower_2
+  - first:
+      213: 6541401050660425199
+    second: moucheflower_3
+  - first:
+      213: 6461922808622239058
+    second: moucheflower_4
+  - first:
+      213: -2005324153268357506
+    second: moucheflower_5
+  - first:
+      213: 5031158592790921972
+    second: moucheflower_6
+  - first:
+      213: -8647209094054347497
+    second: moucheflower_7
+  - first:
+      213: 714034999409979609
+    second: moucheflower_8
+  - first:
+      213: -1729346581689976618
+    second: moucheflower_9
+  - first:
+      213: 1367402297672423309
+    second: moucheflower_10
+  - first:
+      213: -5255990261888734864
+    second: moucheflower_11
+  - first:
+      213: 1801740434402283045
+    second: moucheflower_12
+  - first:
+      213: -2005903840061695760
+    second: moucheflower_13
+  - first:
+      213: 8142954125527805676
+    second: moucheflower_14
+  - first:
+      213: -1474834645956896850
+    second: moucheflower_15
+  - first:
+      213: -5113303143938824843
+    second: moucheflower_16
+  - first:
+      213: 6484388800970978643
+    second: moucheflower_17
+  - first:
+      213: 4065294210902280014
+    second: moucheflower_18
+  - first:
+      213: 5939820725093053781
+    second: moucheflower_19
+  - first:
+      213: 3633757974158344806
+    second: moucheflower_20
+  - first:
+      213: -1762738169558596209
+    second: moucheflower_21
+  - first:
+      213: -1150698095990073055
+    second: moucheflower_22
+  - first:
+      213: -1749151782365508134
+    second: moucheflower_23
+  - first:
+      213: -4831042745711671267
+    second: moucheflower_24
+  - first:
+      213: 7878704596583645611
+    second: moucheflower_25
+  - first:
+      213: -4507300463088498644
+    second: moucheflower_26
+  - first:
+      213: 7912320150415478954
+    second: moucheflower_27
+  - first:
+      213: 5489660672281279718
+    second: moucheflower_28
+  - first:
+      213: -6239439769793957610
+    second: moucheflower_29
+  - first:
+      213: 2608126377401976442
+    second: moucheflower_30
+  - first:
+      213: -3084544866583391510
+    second: moucheflower_31
+  - first:
+      213: 391913081086648145
+    second: moucheflower_32
+  - first:
+      213: 3637093129692656748
+    second: moucheflower_33
+  - first:
+      213: 2169184515790390774
+    second: moucheflower_34
+  - first:
+      213: 8537443277967279655
+    second: moucheflower_35
+  - first:
+      213: -6981653974446548907
+    second: moucheflower_36
+  - first:
+      213: 8600003130402846653
+    second: moucheflower_37
+  - first:
+      213: -974484171713801883
+    second: moucheflower_38
+  - first:
+      213: -8650711120936278519
+    second: moucheflower_39
+  - first:
+      213: -1447861041072213556
+    second: moucheflower_40
+  - first:
+      213: 4436452378125946530
+    second: moucheflower_41
+  - first:
+      213: -1559560889717679002
+    second: moucheflower_42
+  - first:
+      213: 782527133912869365
+    second: moucheflower_43
+  - first:
+      213: 2685741712171031578
+    second: moucheflower_44
+  - first:
+      213: -4697432663979584972
+    second: moucheflower_45
+  - first:
+      213: 4695626088374108284
+    second: moucheflower_46
+  - first:
+      213: -6334831597764966866
+    second: moucheflower_47
+  - first:
+      213: 239976400631990700
+    second: moucheflower_48
+  - first:
+      213: -726133767582052480
+    second: moucheflower_49
+  - first:
+      213: -1012762994818989240
+    second: moucheflower_50
+  - first:
+      213: -8106460430893321892
+    second: moucheflower_51
+  - first:
+      213: 282556120610184606
+    second: moucheflower_52
+  - first:
+      213: 2272426624820300264
+    second: moucheflower_53
+  - first:
+      213: -5919879108239455361
+    second: moucheflower_54
+  - first:
+      213: -98165262244552179
+    second: moucheflower_55
+  - first:
+      213: 1795845595653931762
+    second: moucheflower_56
+  - first:
+      213: 3469909828460786416
+    second: moucheflower_57
+  - first:
+      213: -4088840919466225522
+    second: moucheflower_58
+  - first:
+      213: 6989940100880969910
+    second: moucheflower_59
+  - first:
+      213: -414397268878135993
+    second: moucheflower_60
+  - first:
+      213: 7202108417823924013
+    second: moucheflower_61
+  - first:
+      213: 7407668771336377178
+    second: moucheflower_62
+  - first:
+      213: 53304056706911151
+    second: moucheflower_63
+  - first:
+      213: 950411117406030307
+    second: moucheflower_64
+  - first:
+      213: 9171193097375939276
+    second: moucheflower_65
+  - first:
+      213: -3816421704858286994
+    second: moucheflower_66
+  - first:
+      213: -3437943325288062068
+    second: moucheflower_67
+  - first:
+      213: 4287138859426912820
+    second: moucheflower_68
+  - first:
+      213: -8324406469524897028
+    second: moucheflower_69
+  - first:
+      213: -8577468930519610130
+    second: moucheflower_70
+  - first:
+      213: -3962633219307194510
+    second: moucheflower_71
+  - first:
+      213: 7668066080360122062
+    second: moucheflower_72
+  - first:
+      213: -4859085005993007285
+    second: moucheflower_73
+  - first:
+      213: -273203529511559677
+    second: moucheflower_74
+  - first:
+      213: 3031693798845318854
+    second: moucheflower_75
+  - first:
+      213: -3997853762673482545
+    second: moucheflower_76
+  - first:
+      213: -8695904509018753189
+    second: moucheflower_77
+  - first:
+      213: 4812017553748762078
+    second: moucheflower_78
+  - first:
+      213: -1039388328690783596
+    second: moucheflower_79
+  - first:
+      213: 8920873937797695439
+    second: moucheflower_80
+  - first:
+      213: 359613393043701545
+    second: moucheflower_81
+  - first:
+      213: -4174226169023230661
+    second: moucheflower_82
+  - first:
+      213: 919312975924374632
+    second: moucheflower_83
+  - first:
+      213: 1711451081999167263
+    second: moucheflower_84
+  - first:
+      213: 4158054502872358806
+    second: moucheflower_85
+  - first:
+      213: 8896175226493781591
+    second: moucheflower_86
+  - first:
+      213: 1923511042625444601
+    second: moucheflower_87
+  - first:
+      213: 3697794970129865055
+    second: moucheflower_88
+  - first:
+      213: 3136453287961749893
+    second: moucheflower_89
+  - first:
+      213: -56230070940520753
+    second: moucheflower_90
+  - first:
+      213: -3948096746008322560
+    second: moucheflower_91
+  - first:
+      213: 8651994122818290241
+    second: moucheflower_92
+  - first:
+      213: 5879805975371352917
+    second: moucheflower_93
+  - first:
+      213: 2439138374944476150
+    second: moucheflower_94
+  - first:
+      213: -3589026541972307129
+    second: moucheflower_95
+  - first:
+      213: -3513840052256702642
+    second: moucheflower_96
+  - first:
+      213: 997199494434277654
+    second: moucheflower_97
+  - first:
+      213: -6712015123166701315
+    second: moucheflower_98
+  - first:
+      213: 811870939160182051
+    second: moucheflower_99
+  - first:
+      213: -5318569469591861972
+    second: moucheflower_100
+  - first:
+      213: 1182195352469738793
+    second: moucheflower_101
+  - first:
+      213: -8794239217231319664
+    second: moucheflower_102
+  - first:
+      213: -3355879516119812975
+    second: moucheflower_103
+  - first:
+      213: 3661935192649783534
+    second: moucheflower_104
+  - first:
+      213: -2083294151339298964
+    second: moucheflower_105
+  - first:
+      213: -401340136217534624
+    second: moucheflower_106
+  - first:
+      213: 3042466836173996681
+    second: moucheflower_107
+  - first:
+      213: -3068799319255183411
+    second: moucheflower_108
+  - first:
+      213: 6612882455677875379
+    second: moucheflower_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moucheflower_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639741301d7ae4ae0800000000000000
+      internalID: -1563127504509306570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe51baf52717c5de0800000000000000
+      internalID: -1343073852817992209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8072384c2eb8f6bb0800000000000000
+      internalID: -4940576460126345464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed4bf50999b7ca50800000000000000
+      internalID: 6541401050660425199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4ce5ce8c5da950800000000000000
+      internalID: 6461922808622239058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76bde8ae48ab24e0800000000000000
+      internalID: -2005324153268357506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f205fb751442d540800000000000000
+      internalID: 5031158592790921972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dfc52d421fef780800000000000000
+      internalID: -8647209094054347497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d037018c03c8e900800000000000000
+      internalID: 714034999409979609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_9
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d835d842702008e0800000000000000
+      internalID: -1729346581689976618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8751d9152df9f210800000000000000
+      internalID: 1367402297672423309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_11
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079a53944b8fe07b0800000000000000
+      internalID: -5255990261888734864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_12
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e810a0161110910800000000000000
+      internalID: 1801740434402283045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_13
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8d78fc5199924e0800000000000000
+      internalID: -2005903840061695760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_14
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee26a42a5910170800000000000000
+      internalID: 8142954125527805676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7dc4914b5588be0800000000000000
+      internalID: -1474834645956896850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_16
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57563acc1e5e909b0800000000000000
+      internalID: -5113303143938824843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_17
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355756b324d2df950800000000000000
+      internalID: 6484388800970978643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_18
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e474844cb83da6830800000000000000
+      internalID: 4065294210902280014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_19
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555bcac9a7b7e6250800000000000000
+      internalID: 5939820725093053781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_20
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662837100a3bd6230800000000000000
+      internalID: 3633757974158344806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_21
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85007369fe7987e0800000000000000
+      internalID: -1762738169558596209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_22
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1291bc8ad26e700f0800000000000000
+      internalID: -1150698095990073055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_23
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addccd9a8b3c9b7e0800000000000000
+      internalID: -1749151782365508134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_24
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c02ff730b4fcb0800000000000000
+      internalID: -4831042745711671267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_25
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba10b916618c65d60800000000000000
+      internalID: 7878704596583645611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_26
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2808a90c1ad271c0800000000000000
+      internalID: -4507300463088498644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_27
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa01eaa61453ecd60800000000000000
+      internalID: 7912320150415478954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_28
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecf1c4cb413f2c40800000000000000
+      internalID: 5489660672281279718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_29
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6117cfb569e0969a0800000000000000
+      internalID: -6239439769793957610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_30
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a760f5e2f1de13420800000000000000
+      internalID: 2608126377401976442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_31
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2da8559ce7135d0800000000000000
+      internalID: -3084544866583391510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_32
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f9ffceeda507500800000000000000
+      internalID: 391913081086648145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_33
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64385a6eec897230800000000000000
+      internalID: 3637093129692656748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_34
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c6f303dd7a1e10800000000000000
+      internalID: 2169184515790390774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_35
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72649419d671b7670800000000000000
+      internalID: 8537443277967279655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_36
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5585b6c53be2c1f90800000000000000
+      internalID: -6981653974446548907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_37
+      rect:
+        serializedVersion: 2
+        x: 4662
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7b8e64849595770800000000000000
+      internalID: 8600003130402846653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_38
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56112c11fcfe972f0800000000000000
+      internalID: -974484171713801883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_39
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9066216a11082f780800000000000000
+      internalID: -8650711120936278519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_40
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc173c2ed0a28ebe0800000000000000
+      internalID: -1447861041072213556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_41
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae422dbee1719d30800000000000000
+      internalID: 4436452378125946530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_42
+      rect:
+        serializedVersion: 2
+        x: 5292
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c19ca32a35b5ae0800000000000000
+      internalID: -1559560889717679002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_43
+      rect:
+        serializedVersion: 2
+        x: 5418
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f92bf348481cda00800000000000000
+      internalID: 782527133912869365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_44
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c57688bdba54520800000000000000
+      internalID: 2685741712171031578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_45
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4321e2351ed5fceb0800000000000000
+      internalID: -4697432663979584972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_46
+      rect:
+        serializedVersion: 2
+        x: 5796
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7088938c073a2140800000000000000
+      internalID: 4695626088374108284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_47
+      rect:
+        serializedVersion: 2
+        x: 5922
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e268c47a9382618a0800000000000000
+      internalID: -6334831597764966866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_48
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca98522d341945300800000000000000
+      internalID: 239976400631990700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_49
+      rect:
+        serializedVersion: 2
+        x: 6174
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f0bd38f214ce5f0800000000000000
+      internalID: -726133767582052480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_50
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843472c0c61f1f1f0800000000000000
+      internalID: -1012762994818989240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_51
+      rect:
+        serializedVersion: 2
+        x: 6426
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f7de1031108f80800000000000000
+      internalID: -8106460430893321892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_52
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d151e6b47dbe300800000000000000
+      internalID: 282556120610184606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_53
+      rect:
+        serializedVersion: 2
+        x: 6678
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9cd86b9f7498f10800000000000000
+      internalID: 2272426624820300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_54
+      rect:
+        serializedVersion: 2
+        x: 6804
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8120e05d58dda0800000000000000
+      internalID: -5919879108239455361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_55
+      rect:
+        serializedVersion: 2
+        x: 6930
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0261aec63f33aef0800000000000000
+      internalID: -98165262244552179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_56
+      rect:
+        serializedVersion: 2
+        x: 7056
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f20760fd002ce810800000000000000
+      internalID: 1795845595653931762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_57
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2ba08ca98972030800000000000000
+      internalID: 3469909828460786416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_58
+      rect:
+        serializedVersion: 2
+        x: 7308
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80522ce8d48147c0800000000000000
+      internalID: -4088840919466225522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_59
+      rect:
+        serializedVersion: 2
+        x: 7434
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0b44acc71410160800000000000000
+      internalID: 6989940100880969910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_60
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d60a821e3cf3af0800000000000000
+      internalID: -414397268878135993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_61
+      rect:
+        serializedVersion: 2
+        x: 7686
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fde36927703f360800000000000000
+      internalID: 7202108417823924013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_62
+      rect:
+        serializedVersion: 2
+        x: 7812
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53524100835dc660800000000000000
+      internalID: 7407668771336377178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_63
+      rect:
+        serializedVersion: 2
+        x: 7938
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab4a15d1cf5db000800000000000000
+      internalID: 53304056706911151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_64
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9819330e9803d00800000000000000
+      internalID: 950411117406030307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_65
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca7b9fe78f964f70800000000000000
+      internalID: 9171193097375939276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_66
+      rect:
+        serializedVersion: 2
+        x: 8316
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64c4d00ea8590bc0800000000000000
+      internalID: -3816421704858286994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_67
+      rect:
+        serializedVersion: 2
+        x: 8442
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83a74ab2c8f940d0800000000000000
+      internalID: -3437943325288062068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_68
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a1ae2141afe7b30800000000000000
+      internalID: 4287138859426912820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_69
+      rect:
+        serializedVersion: 2
+        x: 8694
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2410aab64c97c80800000000000000
+      internalID: -8324406469524897028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_70
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeccd6cf375b6f880800000000000000
+      internalID: -8577468930519610130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_71
+      rect:
+        serializedVersion: 2
+        x: 8946
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277380cf416e109c0800000000000000
+      internalID: -3962633219307194510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_72
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6461219717a6a60800000000000000
+      internalID: 7668066080360122062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_73
+      rect:
+        serializedVersion: 2
+        x: 9198
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b472c5c7eef019cb0800000000000000
+      internalID: -4859085005993007285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_74
+      rect:
+        serializedVersion: 2
+        x: 9324
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e941066d2653cf0800000000000000
+      internalID: -273203529511559677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_75
+      rect:
+        serializedVersion: 2
+        x: 9450
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c60eeb827db21a20800000000000000
+      internalID: 3031693798845318854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_76
+      rect:
+        serializedVersion: 2
+        x: 9576
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc463e33f25c488c0800000000000000
+      internalID: -3997853762673482545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_77
+      rect:
+        serializedVersion: 2
+        x: 9702
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5738330ce0f15780800000000000000
+      internalID: -8695904509018753189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_78
+      rect:
+        serializedVersion: 2
+        x: 9828
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd93205878b7c240800000000000000
+      internalID: 4812017553748762078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_79
+      rect:
+        serializedVersion: 2
+        x: 9954
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ae2bc62d95391f0800000000000000
+      internalID: -1039388328690783596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_80
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7c874e49f4dcb70800000000000000
+      internalID: 8920873937797695439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_81
+      rect:
+        serializedVersion: 2
+        x: 10206
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb7d4c97a9df400800000000000000
+      internalID: 359613393043701545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_82
+      rect:
+        serializedVersion: 2
+        x: 10332
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0b3f4a6b2216c0800000000000000
+      internalID: -4174226169023230661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_83
+      rect:
+        serializedVersion: 2
+        x: 10458
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c2167e74e02cc00800000000000000
+      internalID: 919312975924374632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_84
+      rect:
+        serializedVersion: 2
+        x: 10584
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fa40101bb40c710800000000000000
+      internalID: 1711451081999167263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_85
+      rect:
+        serializedVersion: 2
+        x: 10710
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f9b604a8064b930800000000000000
+      internalID: 4158054502872358806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_86
+      rect:
+        serializedVersion: 2
+        x: 10836
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756caca0c30957b70800000000000000
+      internalID: 8896175226493781591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_87
+      rect:
+        serializedVersion: 2
+        x: 10962
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1b312a1fa1ba10800000000000000
+      internalID: 1923511042625444601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_88
+      rect:
+        serializedVersion: 2
+        x: 11088
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5911defee4315330800000000000000
+      internalID: 3697794970129865055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_89
+      rect:
+        serializedVersion: 2
+        x: 11214
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589e093d5abe68b20800000000000000
+      internalID: 3136453287961749893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_90
+      rect:
+        serializedVersion: 2
+        x: 11340
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce25e36c0b383ff0800000000000000
+      internalID: -56230070940520753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_91
+      rect:
+        serializedVersion: 2
+        x: 11466
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e5c4b6dea8539c0800000000000000
+      internalID: -3948096746008322560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_92
+      rect:
+        serializedVersion: 2
+        x: 11592
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1420a5180de021870800000000000000
+      internalID: 8651994122818290241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_93
+      rect:
+        serializedVersion: 2
+        x: 11718
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b8a3ec164499150800000000000000
+      internalID: 5879805975371352917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_94
+      rect:
+        serializedVersion: 2
+        x: 11844
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbc69ccd6f89d120800000000000000
+      internalID: 2439138374944476150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_95
+      rect:
+        serializedVersion: 2
+        x: 11970
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743ca442067313ec0800000000000000
+      internalID: -3589026541972307129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_96
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ff2bfe6155c3fc0800000000000000
+      internalID: -3513840052256702642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_97
+      rect:
+        serializedVersion: 2
+        x: 12222
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61944f328a3c6dd00800000000000000
+      internalID: 997199494434277654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_98
+      rect:
+        serializedVersion: 2
+        x: 12348
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df85998aec12ad2a0800000000000000
+      internalID: -6712015123166701315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_99
+      rect:
+        serializedVersion: 2
+        x: 12474
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcb39fe991c9384ca30f0992603f679
+      internalID: 811870939160182051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moucheflower_100
+      rect:
+        serializedVersion: 2
+        x: 12600
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01bc957aff790742a1fc38b8c762b66
+      internalID: -5318569469591861972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 32f9ffb21ef3f1d4ca29a312d62205cc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":101.0,"y":1.0},"gridSpriteSize":{"x":126.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      moucheflower_0: -1563127504509306570
+      moucheflower_1: -1343073852817992209
+      moucheflower_10: 1367402297672423309
+      moucheflower_100: -5318569469591861972
+      moucheflower_11: -5255990261888734864
+      moucheflower_12: 1801740434402283045
+      moucheflower_13: -2005903840061695760
+      moucheflower_14: 8142954125527805676
+      moucheflower_15: -1474834645956896850
+      moucheflower_16: -5113303143938824843
+      moucheflower_17: 6484388800970978643
+      moucheflower_18: 4065294210902280014
+      moucheflower_19: 5939820725093053781
+      moucheflower_2: -4940576460126345464
+      moucheflower_20: 3633757974158344806
+      moucheflower_21: -1762738169558596209
+      moucheflower_22: -1150698095990073055
+      moucheflower_23: -1749151782365508134
+      moucheflower_24: -4831042745711671267
+      moucheflower_25: 7878704596583645611
+      moucheflower_26: -4507300463088498644
+      moucheflower_27: 7912320150415478954
+      moucheflower_28: 5489660672281279718
+      moucheflower_29: -6239439769793957610
+      moucheflower_3: 6541401050660425199
+      moucheflower_30: 2608126377401976442
+      moucheflower_31: -3084544866583391510
+      moucheflower_32: 391913081086648145
+      moucheflower_33: 3637093129692656748
+      moucheflower_34: 2169184515790390774
+      moucheflower_35: 8537443277967279655
+      moucheflower_36: -6981653974446548907
+      moucheflower_37: 8600003130402846653
+      moucheflower_38: -974484171713801883
+      moucheflower_39: -8650711120936278519
+      moucheflower_4: 6461922808622239058
+      moucheflower_40: -1447861041072213556
+      moucheflower_41: 4436452378125946530
+      moucheflower_42: -1559560889717679002
+      moucheflower_43: 782527133912869365
+      moucheflower_44: 2685741712171031578
+      moucheflower_45: -4697432663979584972
+      moucheflower_46: 4695626088374108284
+      moucheflower_47: -6334831597764966866
+      moucheflower_48: 239976400631990700
+      moucheflower_49: -726133767582052480
+      moucheflower_5: -2005324153268357506
+      moucheflower_50: -1012762994818989240
+      moucheflower_51: -8106460430893321892
+      moucheflower_52: 282556120610184606
+      moucheflower_53: 2272426624820300264
+      moucheflower_54: -5919879108239455361
+      moucheflower_55: -98165262244552179
+      moucheflower_56: 1795845595653931762
+      moucheflower_57: 3469909828460786416
+      moucheflower_58: -4088840919466225522
+      moucheflower_59: 6989940100880969910
+      moucheflower_6: 5031158592790921972
+      moucheflower_60: -414397268878135993
+      moucheflower_61: 7202108417823924013
+      moucheflower_62: 7407668771336377178
+      moucheflower_63: 53304056706911151
+      moucheflower_64: 950411117406030307
+      moucheflower_65: 9171193097375939276
+      moucheflower_66: -3816421704858286994
+      moucheflower_67: -3437943325288062068
+      moucheflower_68: 4287138859426912820
+      moucheflower_69: -8324406469524897028
+      moucheflower_7: -8647209094054347497
+      moucheflower_70: -8577468930519610130
+      moucheflower_71: -3962633219307194510
+      moucheflower_72: 7668066080360122062
+      moucheflower_73: -4859085005993007285
+      moucheflower_74: -273203529511559677
+      moucheflower_75: 3031693798845318854
+      moucheflower_76: -3997853762673482545
+      moucheflower_77: -8695904509018753189
+      moucheflower_78: 4812017553748762078
+      moucheflower_79: -1039388328690783596
+      moucheflower_8: 714034999409979609
+      moucheflower_80: 8920873937797695439
+      moucheflower_81: 359613393043701545
+      moucheflower_82: -4174226169023230661
+      moucheflower_83: 919312975924374632
+      moucheflower_84: 1711451081999167263
+      moucheflower_85: 4158054502872358806
+      moucheflower_86: 8896175226493781591
+      moucheflower_87: 1923511042625444601
+      moucheflower_88: 3697794970129865055
+      moucheflower_89: 3136453287961749893
+      moucheflower_9: -1729346581689976618
+      moucheflower_90: -56230070940520753
+      moucheflower_91: -3948096746008322560
+      moucheflower_92: 8651994122818290241
+      moucheflower_93: 5879805975371352917
+      moucheflower_94: 2439138374944476150
+      moucheflower_95: -3589026541972307129
+      moucheflower_96: -3513840052256702642
+      moucheflower_97: 997199494434277654
+      moucheflower_98: -6712015123166701315
+      moucheflower_99: 811870939160182051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
