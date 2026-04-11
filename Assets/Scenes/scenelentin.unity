@@ -195,13 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2767be1e56e4a4488c891b9d756a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::targetableController
-  health: 1
-  moveSpeed: 5
-  scoreValue: 1
-  bloomValue: 5
-  OnTakeDamage:
-    m_PersistentCalls:
-      m_Calls: []
+  CreatureData: {fileID: 0}
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -1391,6 +1385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreToEnd: 100
   scoreToLose: -100
+  currentScore: 0
   onGainBloom:
     m_PersistentCalls:
       m_Calls: []
@@ -1438,17 +1433,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 6451023760843705587, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3af2baba1841d36409017dfaffd5ceda, type: 2}
     - target: {fileID: 7470770177068020753, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.39025
       objectReference: {fileID: 0}
     - target: {fileID: 7470770177068020753, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1741
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 7470770177068020753, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7470770177068020753, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
       propertyPath: m_LocalRotation.w
