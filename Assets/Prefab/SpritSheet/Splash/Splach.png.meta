@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: 11607c99d782198429991c679d9b44c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5422496565723365510
+    second: Splach_0
+  - first:
+      213: -7596956335517214903
+    second: Splach_1
+  - first:
+      213: -752424840264060359
+    second: Splach_2
+  - first:
+      213: -6264880232123094869
+    second: Splach_3
+  - first:
+      213: 2783048407059108196
+    second: Splach_4
+  - first:
+      213: -6146088868132179779
+    second: Splach_5
+  - first:
+      213: 6959857783424618324
+    second: Splach_6
+  - first:
+      213: -535132282568082913
+    second: Splach_7
+  - first:
+      213: -8858809308728086891
+    second: Splach_8
+  - first:
+      213: 5628849558353260195
+    second: Splach_9
+  - first:
+      213: 7985564159874697236
+    second: Splach_10
+  - first:
+      213: -6694539939710793126
+    second: Splach_11
+  - first:
+      213: 4631322259107283636
+    second: Splach_12
+  - first:
+      213: 2883528005596035195
+    second: Splach_13
+  - first:
+      213: -4419828886020835998
+    second: Splach_14
+  - first:
+      213: 7066763533195926253
+    second: Splach_15
+  - first:
+      213: -8437650329667816974
+    second: Splach_16
+  - first:
+      213: 3981644971437184673
+    second: Splach_17
+  - first:
+      213: -1061997609136798469
+    second: Splach_18
+  - first:
+      213: -8831092385889709810
+    second: Splach_19
+  - first:
+      213: 1880355937168072098
+    second: Splach_20
+  - first:
+      213: 2198115955263127151
+    second: Splach_21
+  - first:
+      213: -591792498883018327
+    second: Splach_22
+  - first:
+      213: 4860749955387616978
+    second: Splach_23
+  - first:
+      213: -324801448793988399
+    second: Splach_24
+  - first:
+      213: -2078268093754046396
+    second: Splach_25
+  - first:
+      213: 6590120285393175386
+    second: Splach_26
+  - first:
+      213: -9204007106777779667
+    second: Splach_27
+  - first:
+      213: -3933837754173054522
+    second: Splach_28
+  - first:
+      213: 7780160741959089501
+    second: Splach_29
+  - first:
+      213: 1185710289326088442
+    second: Splach_30
+  - first:
+      213: -6890664083816922596
+    second: Splach_31
+  - first:
+      213: -2064602152838188031
+    second: Splach_32
+  - first:
+      213: -4712663854081878411
+    second: Splach_33
+  - first:
+      213: -2517142378123231182
+    second: Splach_34
+  - first:
+      213: 2081574927108365704
+    second: Splach_35
+  - first:
+      213: -66194373195670615
+    second: Splach_36
+  - first:
+      213: -469793652361113785
+    second: Splach_37
+  - first:
+      213: -3168204170410241029
+    second: Splach_38
+  - first:
+      213: -6995178066176872679
+    second: Splach_39
+  - first:
+      213: 1769869871282974769
+    second: Splach_40
+  - first:
+      213: -603670109134605408
+    second: Splach_41
+  - first:
+      213: 4440135789117387738
+    second: Splach_42
+  - first:
+      213: -7620901866457403312
+    second: Splach_43
+  - first:
+      213: -7685542759425774334
+    second: Splach_44
+  - first:
+      213: 1019307071797350733
+    second: Splach_45
+  - first:
+      213: -2958474775182792580
+    second: Splach_46
+  - first:
+      213: -5801673447245320291
+    second: Splach_47
+  - first:
+      213: -8865071098522125043
+    second: Splach_48
+  - first:
+      213: -564260688922839215
+    second: Splach_49
+  - first:
+      213: -7739006271038004230
+    second: Splach_50
+  - first:
+      213: -232085289900428390
+    second: Splach_51
+  - first:
+      213: -7212643368107297766
+    second: Splach_52
+  - first:
+      213: -4795579933517447286
+    second: Splach_53
+  - first:
+      213: 3576257903772458748
+    second: Splach_54
+  - first:
+      213: 3421560389809661307
+    second: Splach_55
+  - first:
+      213: 1238842623134801700
+    second: Splach_56
+  - first:
+      213: -6821136213903473365
+    second: Splach_57
+  - first:
+      213: 1416259891558383522
+    second: Splach_58
+  - first:
+      213: -4565879224733567734
+    second: Splach_59
+  - first:
+      213: -1953208879466351658
+    second: Splach_60
+  - first:
+      213: 1143045149924245867
+    second: Splach_61
+  - first:
+      213: -6855378177474632623
+    second: Splach_62
+  - first:
+      213: 357918059564145335
+    second: Splach_63
+  - first:
+      213: -6059447951035472896
+    second: Splach_64
+  - first:
+      213: -143653122342948321
+    second: Splach_65
+  - first:
+      213: 5817715998813002869
+    second: Splach_66
+  - first:
+      213: 7126487511328942807
+    second: Splach_67
+  - first:
+      213: 2671425187028965939
+    second: Splach_68
+  - first:
+      213: 5581035740966742672
+    second: Splach_69
+  - first:
+      213: -7816918729165695337
+    second: Splach_70
+  - first:
+      213: 8680491242630005332
+    second: Splach_71
+  - first:
+      213: 1759215914475626031
+    second: Splach_72
+  - first:
+      213: 7526720320112625010
+    second: Splach_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Splach_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68087bb95e3904b40800000000000000
+      internalID: 5422496565723365510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 268
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947d7579670329690800000000000000
+      internalID: -7596956335517214903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 268
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93271e32899de85f0800000000000000
+      internalID: -752424840264060359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 268
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8afe32f9cae09a0800000000000000
+      internalID: -6264880232123094869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 268
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461997fe7cf5f9620800000000000000
+      internalID: 2783048407059108196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0bff0ecb4b4baa0800000000000000
+      internalID: -6146088868132179779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f034477c1669060800000000000000
+      internalID: 6959857783424618324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Splach_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a7fa53604d298f0800000000000000
+      internalID: -535132282568082913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73c6380b914b48448954c037fd7ddb9a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":2.0},"gridSpriteSize":{"x":266.0,"y":268.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Splach_0: 5422496565723365510
+      Splach_1: -7596956335517214903
+      Splach_2: -752424840264060359
+      Splach_3: -6264880232123094869
+      Splach_4: 2783048407059108196
+      Splach_5: -6146088868132179779
+      Splach_6: 6959857783424618324
+      Splach_7: -535132282568082913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
