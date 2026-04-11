@@ -27,6 +27,8 @@ public class playerController : MonoBehaviour
 
     public GameObject scoreManager;
     public ScoreManager score;
+    public bool isOnMenu;
+
 
 
     private Vector2 movement;
@@ -35,6 +37,7 @@ public class playerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (isOnMenu == true ) return;
         score = scoreManager.GetComponent<ScoreManager>();
     }
 
@@ -53,6 +56,7 @@ public class playerController : MonoBehaviour
         
         foreach(Collider2D target in targets)
         {
+
             if (target.gameObject == otherPlayer)
             {
                 target.GetComponent<playerController>().TriggerStun();
@@ -60,7 +64,15 @@ public class playerController : MonoBehaviour
             else
             {
                 print("mouche");
-                target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
+                if (isOnMenu==true)
+                {
+                    //target.GetComponent<MooveButton>()
+                }
+                else
+                {
+                    target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
+                }
+                    
             }
         }
     }
