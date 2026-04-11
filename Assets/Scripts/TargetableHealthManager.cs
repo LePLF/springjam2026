@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class TargetableHealthManager : MonoBehaviour
 {
     public TargetableData creatureData;
+    public ParticleSystem onDeathEffect;
 
     private SpriteRenderer spriteRenderer;
     private float moveSpeed;
@@ -48,6 +49,7 @@ public class TargetableHealthManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             score.ApplyPlayerScore(playerIndex, scoreValue);
+            //Instantiate(onDeathEffect,this.gameObject.transform);
             OnDeath.Invoke();
         }
         else OnTakeDamage.Invoke();

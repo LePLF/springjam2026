@@ -55,6 +55,11 @@ public class targetableController : MonoBehaviour
         }
     }
 
+    public void DestroyEntity()
+    {
+        Destroy(gameObject);
+    }
+
     void ReachFlower()
     {
         score.ApplyBloom(bloomValue);

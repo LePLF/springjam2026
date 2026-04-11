@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 6906604787447143030}
   - component: {fileID: 7539831138135456792}
   m_Layer: 8
-  m_Name: TargetableEntity
+  m_Name: MoucheTemplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
