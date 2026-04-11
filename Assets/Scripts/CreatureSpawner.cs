@@ -14,7 +14,7 @@ public class CreatureSpawner : MonoBehaviour
     public MoushSpawnData[] spawnList;
 
     [Header("Spawner Parameters")]
-    public float spawnerCooldown;
+    public float spawnerBaseCooldown;
     private float moushSpawnCooldown = 1f;
     public int maxSpawnedEntities;
     private float lastAttackTime;
@@ -55,7 +55,7 @@ public class CreatureSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(moushSpawnCooldown);
+            yield return new WaitForSeconds(moushSpawnCooldown + spawnerBaseCooldown);
            
 
             instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown),transform.position, Quaternion.identity);

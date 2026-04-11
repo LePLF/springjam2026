@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -16,6 +18,9 @@ public class ScoreManager : MonoBehaviour
     public UnityEvent onPlayerLoseScore;
     public int player1Score;
     public int player2Score;
+
+    public List<GameObject> player1Kills = new List<GameObject>();
+    public List<GameObject> player2Kills = new List<GameObject>();
 
 
     [Header("Game State")]
@@ -73,6 +78,18 @@ public class ScoreManager : MonoBehaviour
             onPlayerGainScore.Invoke();
         }
 
+    }
+
+    public void AddEnemyToPlayerScoreArray(int playerIndex, GameObject mouche)
+    {
+        if (playerIndex < 0)
+        {
+            player2Kills.Add(mouche);
+        }
+        else
+        {
+            player1Kills.Add(mouche);
+        }
     }
 
 
