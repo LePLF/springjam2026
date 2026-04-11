@@ -24,15 +24,18 @@ public class targetableController : MonoBehaviour
     {
         points = PathManager.GetComponent<PointsList>();
         currentHealth = health;
+        score = scoreManager.GetComponent<ScoreManager>();
 
         StartCoroutine(FollowPath());
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, int playerIndex)
     {
+        print("ouille");
         health -= damage;
         if (health <= 0)
         {
+            score.ApplyPlayerScore(playerIndex, scoreValue);
             OnDeath.Invoke();
         }
         else OnTakeDamage.Invoke();
@@ -45,25 +48,27 @@ public class targetableController : MonoBehaviour
         {
             Vector2 target = points.GetPathPointInList(currentList);
 
-            // Move toward the target until close enough
             while (Vector2.Distance(transform.position, target) > 0.1f)
             {
                 transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
                 yield return null;
             }
 
-            // Advance to the next list, loop back to 0 at the end
-            currentList = (currentList + 1) % points.GetPathCount();
-            if (currentList == points.GetPathCount())
+            currentList++;
+
+            if (currentList >= points.GetPathCount())
             {
                 OnReachFlower.Invoke();
+                ReachFlower();
+                yield break;
             }
         }
     }
 
     void ReachFlower()
     {
-
+        score.ApplyScore(scoreValue);
+        Destroy(gameObject);
     }
 
 

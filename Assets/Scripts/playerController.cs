@@ -16,6 +16,7 @@ public class playerController : MonoBehaviour
     public GameObject otherPlayer;
 
     [Header("Attack")]
+    public int damageValue = 1;
     public LayerMask attackLayerMask;
     public Vector2 boxSize;
     public UnityEvent OnStun;
@@ -24,6 +25,9 @@ public class playerController : MonoBehaviour
     [SerializeField]private float stunDuration;
     private bool isStunned;
 
+    public GameObject scoreManager;
+    public ScoreManager score;
+
 
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -31,6 +35,7 @@ public class playerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        score = scoreManager.GetComponent<ScoreManager>();
     }
 
     void Start()
@@ -54,7 +59,8 @@ public class playerController : MonoBehaviour
             }
             else
             {
-                print("mouche ou abeille");
+                print("mouche");
+                target.gameObject.GetComponent<targetableController>().TakeDamage(damageValue, playerIndex);
             }
         }
     }
