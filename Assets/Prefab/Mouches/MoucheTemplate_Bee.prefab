@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 666261977915455655, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.11
+      value: 0.6875
       objectReference: {fileID: 0}
     - target: {fileID: 666261977915455655, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.06
+      value: 0.375
       objectReference: {fileID: 0}
     - target: {fileID: 967399959412617340, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: onDeathEffect
@@ -70,11 +70,11 @@ PrefabInstance:
       objectReference: {fileID: -4656658513182322354, guid: 160588e6831b7374f9860bf247c6acf4, type: 3}
     - target: {fileID: 6906604787447143030, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.1228
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6906604787447143030, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45523
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6906604787447143030, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: m_LocalPosition.z
