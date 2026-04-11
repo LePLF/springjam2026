@@ -26,7 +26,10 @@ public class CreatureSpawner : MonoBehaviour
     {
         return Time.time >= lastAttackTime + cooldown;
     }
-
+    private void Awake()
+    {
+        SetSpawnWeights();
+    }
     private void SetSpawnWeights()
     {
         totalWeight = 0;
@@ -55,7 +58,7 @@ public class CreatureSpawner : MonoBehaviour
             yield return new WaitForSeconds(moushSpawnCooldown);
            
 
-            instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown));
+            instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown),transform.position, Quaternion.identity);
 
             instantiatedFly.GetComponent<targetableController>().PathManager = pathManager;
             instantiatedFly.GetComponent<targetableController>().scoreManager = scoreManager;
