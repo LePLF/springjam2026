@@ -10,7 +10,7 @@ public class TargetableHealthManager : MonoBehaviour
 {
     public EMoucheID MoucheID;
 
-    public TargetableData creatureData;
+    [SerializeField] private TargetableData creatureData;
     public ParticleSystem onDeathEffect;
 
     private float moveSpeed;
@@ -46,8 +46,9 @@ public class TargetableHealthManager : MonoBehaviour
         if (currentHealth <= 0)
         {
 
-            print("ouille");
-            score.ApplyPlayerScore(playerIndex, scoreValue, creatureData);
+            print("Player " + playerIndex);
+            print("Data  " + creatureData.scoreMouche.name);
+            score.ApplyPlayerScore(playerIndex, creatureData.scoreValue, creatureData);
 
             //Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();
