@@ -67,7 +67,7 @@ public class ScoreManager : MonoBehaviour
 
     public void ApplyPlayerScore(int playerIndex, int scoreValue, TargetableData scoreMouche)
     {
-        AddEnemyToPlayerScoreArray(playerIndex, scoreMouche);
+        AddEnemyToPlayerScoreArray(playerIndex, scoreMouche, scoreValue);
         print("score++");
         if (playerIndex == 0)
         {
@@ -88,7 +88,7 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void AddEnemyToPlayerScoreArray(int playerIndex, TargetableData scoreMouche)
+    public void AddEnemyToPlayerScoreArray(int playerIndex, TargetableData scoreMouche, int scoreValue)
     {
         if (playerIndex > 0)
         {
