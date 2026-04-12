@@ -1902,7 +1902,7 @@ Transform:
   m_GameObject: {fileID: 1713785757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.116426, y: 0.8441069, z: 0}
+  m_LocalPosition: {x: 7.03, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2057,15 +2057,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e8d7e0c60a18642b59725e49c49e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  scoreToEnd: 2
+  scoreToEnd: 100
   scoreToLose: -100
-  currentScore: 0
   onGainBloom:
     m_PersistentCalls:
       m_Calls: []
   onLoseBloom:
     m_PersistentCalls:
       m_Calls: []
+  flower: {fileID: 1713785757}
   onPlayerGainScore:
     m_PersistentCalls:
       m_Calls: []

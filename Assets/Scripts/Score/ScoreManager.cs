@@ -7,12 +7,14 @@ using UnityEngine.Events;
 public class ScoreManager : MonoBehaviour
 {
     [Header("Bloom Score")]
-    public float scoreToEnd = 100f;
-    public float scoreToLose = -100f;
-    public static float currentScore;
+    public int scoreToEnd = 100;
+    public int scoreToLose = -100;
+    public static int currentScore;
     public UnityEvent onGainBloom;
     public UnityEvent onLoseBloom;
-
+    public GameObject flower;
+    private Animator animator;
+    
     [Header("Player Score")]
     public UnityEvent onPlayerGainScore;
     public UnityEvent onPlayerLoseScore;
@@ -42,6 +44,7 @@ public class ScoreManager : MonoBehaviour
         player1Score = 0;
         player2Score = 0;
         currentScore = 0;
+        animator = flower.GetComponent<Animator>();
     }
 
     public void ApplyBloom(int scoreValue)
@@ -123,6 +126,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        animator.SetInteger("Bloom", currentScore);
     }
 }
