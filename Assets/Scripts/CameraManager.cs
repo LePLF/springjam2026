@@ -8,13 +8,11 @@ public class CameraManager : MonoBehaviour
     [Header(" CinemachineCamera type ")]
     [SerializeField] private CinemachineImpulseSource impulseSource;
 
-    [Header("Shake léger")]
+    [Header("Shake ")]
     [SerializeField] private float lightAmplitude = 0.5f;
     [SerializeField] private float lightDuration   = 0.15f;
 
-    [Header("Shake Hard")]
-    [SerializeField] private float heavyAmplitude = 2f;
-    [SerializeField] private float heavyDuration   = 0.35f;
+    
 
     private void Awake()
     {
@@ -23,7 +21,6 @@ public class CameraManager : MonoBehaviour
     }
 
     public void ShakeLight()              => Shake(lightAmplitude, lightDuration);
-    public void ShakeHeavy()              => Shake(heavyAmplitude, heavyDuration);
     public void ShakeCustom(float a, float d) => Shake(a, d);
 
     private void Shake(float amplitude, float duration)
