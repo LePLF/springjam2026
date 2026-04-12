@@ -66,8 +66,8 @@ public class playerController : MonoBehaviour
         currentMoveSpeed = moveSpeed;
         animator = sprite.GetComponent<Animator>();
         Rotanimator = handle.GetComponent<Animator>();
-        //animator2 = sprite2.GetComponent<Animator>();
-        //Rotanimator2 = handle2.GetComponent<Animator>();
+        animator2 = sprite2.GetComponent<Animator>();
+        Rotanimator2 = handle2.GetComponent<Animator>();
     }
 
     public void StartAttack()
@@ -160,12 +160,6 @@ public class playerController : MonoBehaviour
         rb.linearVelocity = movement * currentMoveSpeed;
 
         
-<<<<<<< Updated upstream
-        // Trucs mouvement anim à Valentin (le gars ki pue là)
-        // animator.SetFloat("VerticalInput", playerinputManager.p1Movement.y);
-       // animator.SetFloat("VerticalInput", playerinputManager.p2Movement.y);
-=======
->>>>>>> Stashed changes
 
         Vector2 clampedPos = new Vector2(Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x), Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y));
         transform.position = clampedPos;
