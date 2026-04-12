@@ -17,8 +17,8 @@ public class MoucheScoreDisplay : MonoBehaviour
     public List<int> player1KillValues = new List<int>();
     public List<int> player2KillValues = new List<int>();
 
-    public int p1ScoreDisplay;
-    public int p2ScoreDisplay;
+    public static int p1ScoreDisplay;
+    public static int p2ScoreDisplay;
 
     private int p1;
     private int p2;
