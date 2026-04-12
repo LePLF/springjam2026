@@ -69,6 +69,13 @@ public class CreatureSpawner : MonoBehaviour
             }
         }
     }
+
+
+    public void onGameEnd()
+    {
+        isGameEnded = true;
+    }
+
    
     void Start()
     {

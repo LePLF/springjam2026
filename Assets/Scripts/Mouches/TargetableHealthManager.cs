@@ -95,4 +95,9 @@ public class TargetableHealthManager : MonoBehaviour
        
     }
 
+    public void onGameEnd()
+    {
+        Destroy(gameObject);
+    }
+
 }
