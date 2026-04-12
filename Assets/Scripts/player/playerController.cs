@@ -52,6 +52,7 @@ public class playerController : MonoBehaviour
     {
         if (isStunned) return;
         if (!CooldownCheck(attackCooldown)) return;
+        print(playerIndex);
 
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
@@ -82,9 +83,9 @@ public class playerController : MonoBehaviour
     IEnumerator Stun()
     {
         isStunned = true;
-        print("ca stun");
+        //print("ca stun");
         yield return new WaitForSeconds(stunDuration);
-        print("stun fini");
+        //print("stun fini");
         isStunned = false;
     }
 

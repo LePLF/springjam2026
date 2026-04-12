@@ -22,7 +22,6 @@ public class targetableController : MonoBehaviour
     {
         moveSpeed = CreatureData.moveSpeed;
         bloomValue = CreatureData.bloomValue;
-        print(bloomValue);
         points = PathManager.GetComponent<PointsList>();
         score = scoreManager.GetComponent<ScoreManager>();
 
