@@ -28,6 +28,7 @@ public class MoucheScoreDisplay : MonoBehaviour
     [Header("MoucheDisplay Spawnpoint")]
     public Transform p1ScoreSpawnPoint;
     public Transform p2ScoreSpawnPoint;
+    public float spawnRadius;
 
     [Header("WinnerEvents")]
     public UnityEvent onPlayer1Win;
@@ -57,7 +58,7 @@ public class MoucheScoreDisplay : MonoBehaviour
 
     private IEnumerator SpawnLoop()
     {
-
+        yield return new WaitForSeconds(5);
         while (isScoreDisplaying)
         {
             if (player1Kills.Count != 0)
@@ -87,7 +88,7 @@ public class MoucheScoreDisplay : MonoBehaviour
 
             if (p1 == player1Kills.Count || p2 == player2Kills.Count)
             {
-                yield return new WaitForSeconds(displaySpeed);
+                yield return new WaitForSeconds(timeToDisplayWinner);
                 
                 if(p1ScoreDisplay > p2ScoreDisplay)
                 {
@@ -102,7 +103,7 @@ public class MoucheScoreDisplay : MonoBehaviour
                     onDraw.Invoke();
                 }
 
-                    p1 = 0;
+                p1 = 0;
                 p2 = 0;
                 isScoreDisplaying = true;
                 break;
