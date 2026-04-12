@@ -1336,13 +1336,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreToEnd: 100
   scoreToLose: -100
+  currentScore: 0
   onGainBloom:
     m_PersistentCalls:
       m_Calls: []
   onLoseBloom:
     m_PersistentCalls:
       m_Calls: []
-  flower: {fileID: 0}
   onPlayerGainScore:
     m_PersistentCalls:
       m_Calls: []
@@ -1361,6 +1361,7 @@ MonoBehaviour:
   onGameEnd:
     m_PersistentCalls:
       m_Calls: []
+  mooveCameraEnd: {fileID: 0}
 --- !u!4 &1804405722
 Transform:
   m_ObjectHideFlags: 0
@@ -1384,29 +1385,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1938610850811328653, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 2045066341614948844, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045066341614948844, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401891960050515640, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401891960050515640, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 6951996225712544926, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: handle2
@@ -1417,26 +1398,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 858310110}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: boxSize.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: boxSize.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: isPlayer2
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: moveSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: damageValue
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: otherPlayer
       value: 
       objectReference: {fileID: 857280376}
@@ -1444,18 +1405,6 @@ PrefabInstance:
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1804405720}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: xyBoxHalfsize.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: xyBoxHalfsize.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: attackLayerMask.m_Bits
-      value: 384
-      objectReference: {fileID: 0}
     - target: {fileID: 8707304744028140958, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4

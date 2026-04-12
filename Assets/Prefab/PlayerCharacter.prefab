@@ -180,6 +180,8 @@ MonoBehaviour:
   isOnMenu: 0
   sprite: {fileID: 546471480421922910}
   handle: {fileID: 3488455764203441258}
+  sprite2: {fileID: 0}
+  handle2: {fileID: 0}
   minBounds: {x: 0, y: 0}
   maxBounds: {x: 0, y: 0}
 --- !u!50 &6951996225712544926
