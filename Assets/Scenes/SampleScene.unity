@@ -2242,9 +2242,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 672779576133891981, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1342860624797244991, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
       propertyPath: m_Name
       value: Player2Character Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342860624797244991, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515484900483498937, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8508929271977867853, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2314,6 +2326,10 @@ PrefabInstance:
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1804405720}
+    - target: {fileID: 8551340122007064389, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
+      propertyPath: attackLayerMask.m_Bits
+      value: 320
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
