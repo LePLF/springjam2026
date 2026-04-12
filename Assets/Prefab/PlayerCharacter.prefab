@@ -170,6 +170,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 384
   boxSize: {x: 1, y: 2}
+  onAttackMiss:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8300000, guid: 1d173babe186c914381964f7c41fb98a, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnStun:
     m_PersistentCalls:
       m_Calls: []
@@ -180,8 +195,6 @@ MonoBehaviour:
   isOnMenu: 0
   sprite: {fileID: 546471480421922910}
   handle: {fileID: 3488455764203441258}
-  sprite2: {fileID: 0}
-  handle2: {fileID: 0}
   minBounds: {x: 0, y: 0}
   maxBounds: {x: 0, y: 0}
 --- !u!50 &6951996225712544926
