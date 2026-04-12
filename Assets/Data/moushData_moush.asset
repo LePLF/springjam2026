@@ -18,3 +18,4 @@ MonoBehaviour:
   scoreValue: 25
   bloomValue: -5
   scoreMouche: {fileID: 1674218296236322627, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
+  onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}

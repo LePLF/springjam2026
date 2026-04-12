@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,8 +11,10 @@ public class TargetableHealthManager : MonoBehaviour
 {
     public EMoucheID MoucheID;
 
-    [SerializeField] private TargetableData creatureData;
-    public ParticleSystem onDeathEffect;
+    [NonSerialized] public TargetableData creatureData;
+
+    private ParticleSystem onDeathEffect;
+    private targetableController targetableController;
 
     private float moveSpeed;
     private float jitterSpeed;
@@ -31,15 +34,15 @@ public class TargetableHealthManager : MonoBehaviour
     public UnityEvent onMoushHit;
     public UnityEvent onBeeHit;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         hasPathEnded = false;
         currentHealth = creatureData.maxHealth;
         moveSpeed = creatureData.moveSpeed;
         jitterSpeed = creatureData.JitterSpeed;
+        onDeathEffect = creatureData.onDeathEffect;
         score = scoreManager.GetComponent<ScoreManager>();
+        targetableController = transform.parent.GetComponent<targetableController>();
 
         StartCoroutine(MoveToRandomPoint());
     }
@@ -59,14 +62,13 @@ public class TargetableHealthManager : MonoBehaviour
                 onMoushHit.Invoke();
             }
 
-
-
                 print("Player " + playerIndex);
             print("Data  " + creatureData.scoreMouche.name);
             score.ApplyPlayerScore(playerIndex, creatureData.scoreValue, creatureData);
 
             Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();
+            targetableController.DestroyEntity();
         }
         else OnTakeDamage.Invoke();
     }
@@ -74,7 +76,7 @@ public class TargetableHealthManager : MonoBehaviour
     {
         while (true)
         {
-            int chosenPoint = Random.Range(0, targets.Count);
+            int chosenPoint = UnityEngine.Random.Range(0, targets.Count);
             Vector2 target = targets[chosenPoint].position;
 
             while (Vector2.Distance(transform.position, target) > 0.1f)

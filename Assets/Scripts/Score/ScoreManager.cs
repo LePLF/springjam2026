@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,11 +21,11 @@ public class ScoreManager : MonoBehaviour
     public int player1Score;
     public int player2Score;
 
-    public List<GameObject> player1Kills = new List<GameObject>();
-    public List<GameObject> player2Kills = new List<GameObject>();
+    [NonSerialized] public List<GameObject> player1Kills = new List<GameObject>();
+    [NonSerialized] public List<GameObject> player2Kills = new List<GameObject>();
 
-    public List<int> player1KillValues = new List<int>();
-    public List<int> player2KillValues = new List<int>();
+    [NonSerialized] public List<int> player1KillValues = new List<int>();
+    [NonSerialized] public List<int> player2KillValues = new List<int>();
 
     [Header("Game State")]
     public UnityEvent onGameLost;
@@ -49,17 +50,8 @@ public class ScoreManager : MonoBehaviour
 
     public void ApplyBloom(int scoreValue)
     {
-        print(scoreValue);
-        if (scoreValue < 0)
-        {
-            currentScore -= scoreValue;
-            onLoseBloom.Invoke();
-        }
-        else
-        {
-            currentScore += scoreValue;
-            onGainBloom.Invoke();
-        }
+        currentScore += scoreValue;
+        
         if (currentScore >= scoreToEnd)
         {
             EndGame();
@@ -110,8 +102,9 @@ public class ScoreManager : MonoBehaviour
     void EndGame()
     {
         print("game end");
-        mooveCameraEnd.MoveToB();
         onGameEnd.Invoke();
+        mooveCameraEnd.MoveToB();
+        
     }
 
     void GameLost()

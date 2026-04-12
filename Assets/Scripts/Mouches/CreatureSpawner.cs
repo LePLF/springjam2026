@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -21,6 +22,9 @@ public class CreatureSpawner : MonoBehaviour
     public bool isGameEnded;
     private int totalWeight;
     private GameObject instantiatedFly;
+    private Coroutine spawnCoroutine;
+
+    public List<GameObject> activeFlyList = new List<GameObject>();
 
     public bool CooldownCheck(float cooldown)
     {
@@ -57,29 +61,45 @@ public class CreatureSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(moushSpawnCooldown + spawnerBaseCooldown);
 
-            instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown),transform.position, Quaternion.identity);
+            activeFlyList.RemoveAll(c => c == null);
 
-            instantiatedFly.GetComponent<targetableController>().PathManager = pathManager;
-            instantiatedFly.GetComponent<targetableController>().scoreManager = scoreManager;
-            instantiatedFly.GetComponentInChildren<TargetableHealthManager>().scoreManager = scoreManager;
+            if (maxSpawnedEntities > activeFlyList.Count)
+            {
+                instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown), transform.position, Quaternion.identity);
 
-            if (isGameEnded)
-            {         
-                yield break;
-            }
+                instantiatedFly.GetComponent<targetableController>().PathManager = pathManager;
+                instantiatedFly.GetComponent<targetableController>().scoreManager = scoreManager;
+                instantiatedFly.GetComponentInChildren<TargetableHealthManager>().scoreManager = scoreManager;
+                activeFlyList.Add(instantiatedFly);
+            }         
         }
     }
 
 
     public void onGameEnd()
     {
+        StopCoroutine(spawnCoroutine);
+        isGameEnded = true;
+
+        foreach (GameObject fly in activeFlyList)
+        {
+            if (fly!=null) Destroy(fly);
+        }
+
+        activeFlyList.Clear();
+    }
+
+    public void onGameLost()
+    {
+        StopCoroutine(spawnCoroutine);
         isGameEnded = true;
     }
 
    
     void Start()
     {
-        StartCoroutine(SpawnLoop());
+        isGameEnded = false;
+        spawnCoroutine = StartCoroutine(SpawnLoop());
     }
 
 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Moush_Zebra
   m_EditorClassIdentifier: Assembly-CSharp::MoushSpawnData
   moushPrefab: {fileID: 5334677949605878692, guid: 9e970d8aadcc4c14da554ae12be78426, type: 3}
-  moushSpawnWeight: 5
-  combinedWeight: 0
+  moushSpawnWeight: 50
+  combinedWeight: 150
   cooldown: 1

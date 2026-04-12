@@ -14,4 +14,7 @@ public class TargetableData : ScriptableObject
     public int bloomValue;
     public GameObject scoreMouche;
 
+    [Header("Effects")]
+    public ParticleSystem onDeathEffect;
+
 }

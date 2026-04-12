@@ -17,7 +17,11 @@ public class targetableController : MonoBehaviour
     public GameObject scoreManager;
     private ScoreManager score;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Awake()
+    {
+        GetComponentInChildren<TargetableHealthManager>().creatureData = CreatureData;
+    }
+
     void Start()
     {
         moveSpeed = CreatureData.moveSpeed;
