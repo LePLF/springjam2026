@@ -40,6 +40,14 @@ public class playerController : MonoBehaviour
     public Animator animator;
     public Animator Rotanimator;
 
+    [Header("Boundaries")]
+    public Vector2 minBounds;
+    public Vector2 maxBounds;
+
+
+
+       
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -99,9 +107,7 @@ public class playerController : MonoBehaviour
         {
             OnStun.Invoke();
             CameraManager.Instance.ShakeLight();
-            StartCoroutine(Stun());
-            
-
+            StartCoroutine(Stun());         
         }
 
         
@@ -134,6 +140,9 @@ public class playerController : MonoBehaviour
         // Trucs mouvement anim à Valentin (le gars ki pue là)
         animator.SetFloat("VerticalInput", playerinputManager.p1Movement.y);
         animator.SetFloat("VerticalInput", playerinputManager.p2Movement.y);
+
+        Vector2 clampedPos = new Vector2(Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x), Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y));
+        transform.position = clampedPos;
     }
 
     private void OnDrawGizmos()
