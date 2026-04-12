@@ -428,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b0b75ae6c62bc542959486478fe523e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetableHealthManager
+  MoucheID: 0
   creatureData: {fileID: 11400000, guid: 84d228f59cea9664e8a4c6df48eb2a00, type: 2}
   onDeathEffect: {fileID: 7419498015192145542, guid: 3910becc776202f45916dc2ae1872720, type: 3}
   scoreValue: 1
