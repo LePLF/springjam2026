@@ -94,7 +94,9 @@ public class playerController : MonoBehaviour
         if (!isStunned)
         {
             OnStun.Invoke();
+            CameraManager.Instance.ShakeLight();
             StartCoroutine(Stun());
+            
 
         }
 
