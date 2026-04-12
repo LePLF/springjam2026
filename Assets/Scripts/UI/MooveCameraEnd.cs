@@ -15,7 +15,7 @@ public class MooveCameraEnd : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current.rightButton.wasPressedThisFrame)
             _target = _target == pointA ? (Vector2)pointB.position : pointA;
 
         transform.position = Vector2.MoveTowards(transform.position, _target, moveSpeed * Time.deltaTime);
