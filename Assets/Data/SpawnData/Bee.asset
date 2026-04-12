@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bee
   m_EditorClassIdentifier: Assembly-CSharp::MoushSpawnData
   moushPrefab: {fileID: 5828877616727525518, guid: a7274935bdeedfe4b983d26c37227926, type: 3}
-  moushSpawnWeight: 125
-  combinedWeight: 0
+  moushSpawnWeight: 50
+  combinedWeight: 50
   cooldown: 0.1

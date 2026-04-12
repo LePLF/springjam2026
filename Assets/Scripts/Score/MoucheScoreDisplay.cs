@@ -10,7 +10,7 @@ public class MoucheScoreDisplay : MonoBehaviour
     public ScoreManager scoreManager;
 
     public float displaySpeed;
-    public float timeToDisplayWinner;
+    public float timeToDisplayWinner = 5;
     private bool isScoreDisplaying;
 
     private List<GameObject> player1Kills = new List<GameObject>();
@@ -24,6 +24,7 @@ public class MoucheScoreDisplay : MonoBehaviour
 
     private int p1;
     private int p2;
+    private bool isGameOver = false;
 
     [Header("MoucheDisplay Spawnpoint")]
     public Transform p1ScoreSpawnPoint;
@@ -37,7 +38,7 @@ public class MoucheScoreDisplay : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        isGameOver = false;
     }
 
     public void FindPlayerScore()
@@ -46,7 +47,9 @@ public class MoucheScoreDisplay : MonoBehaviour
         player2Kills = scoreManager.player2Kills;
         player1KillValues = scoreManager.player1KillValues;
         player2KillValues = scoreManager.player2KillValues;
+        if (isGameOver) return;
         StartScoreCounting();
+        isGameOver = true;
     }
 
     public void StartScoreCounting()
