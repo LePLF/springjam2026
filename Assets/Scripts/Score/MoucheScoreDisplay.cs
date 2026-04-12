@@ -32,7 +32,6 @@ public class MoucheScoreDisplay : MonoBehaviour
         
     }
 
-
     public void FindPlayerScore()
     {
         player1Kills = scoreManager.player1Kills;
@@ -86,7 +85,7 @@ public class MoucheScoreDisplay : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         
     }
 }
