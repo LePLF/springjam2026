@@ -19,9 +19,6 @@ public class playerinputManager : MonoBehaviour
     private InputAction p2AttackAction;
 
 
-
-
-
     private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
@@ -59,7 +56,7 @@ public class playerinputManager : MonoBehaviour
     {
         p1Movement = p1MoveAction.ReadValue<Vector2>();
         p2Movement = p2MoveAction.ReadValue<Vector2>();
-
+        
         PlayerAttack();
     }
 }

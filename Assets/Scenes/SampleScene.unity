@@ -705,8 +705,6 @@ MonoBehaviour:
   impulseSource: {fileID: 820294093}
   lightAmplitude: 0.5
   lightDuration: 0.15
-  heavyAmplitude: 2
-  heavyDuration: 0.35
 --- !u!4 &820294095
 Transform:
   m_ObjectHideFlags: 0
@@ -1229,6 +1227,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc474edca8200db47baf1bc8ef95e35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playerController
+--- !u!95 &1427897133 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7976670098173999893, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+  m_PrefabInstance: {fileID: 9107579382519957395}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1460087627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1605,8 @@ MonoBehaviour:
   player2Score: 0
   player1Kills: []
   player2Kills: []
+  player1KillValues: 
+  player2KillValues: 
   onGameLost:
     m_PersistentCalls:
       m_Calls: []
@@ -1769,6 +1774,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1804405721}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1427897133}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: boxSize.x
       value: 1
       objectReference: {fileID: 0}
@@ -1780,6 +1789,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: Rotanimator
+      value: 
+      objectReference: {fileID: 1716964980}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: otherPlayer
       value: 
