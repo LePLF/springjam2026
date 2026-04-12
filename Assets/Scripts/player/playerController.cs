@@ -41,14 +41,10 @@ public class playerController : MonoBehaviour
     private Animator Rotanimator;
     public GameObject sprite;
     public GameObject handle;
-    private Animator animator2;
 
     [Header("Boundaries")]
     public Vector2 minBounds;
     public Vector2 maxBounds;
-
-
-
        
 
     private void Awake()
@@ -75,7 +71,7 @@ public class playerController : MonoBehaviour
 
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
-        animator2.SetTrigger("Hit");
+        animator.SetTrigger("Hit");
         
         foreach(Collider2D target in targets)
         {
