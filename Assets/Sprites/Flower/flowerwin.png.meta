@@ -1,0 +1,1419 @@
+fileFormatVersion: 2
+guid: 68bdc905d0be6b14396e5d838508b36f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6798670284058498550
+    second: flowerwin_0
+  - first:
+      213: 1465147840673578775
+    second: flowerwin_1
+  - first:
+      213: -4636712640280196275
+    second: flowerwin_2
+  - first:
+      213: -330354334194389338
+    second: flowerwin_3
+  - first:
+      213: 1280499355466995771
+    second: flowerwin_4
+  - first:
+      213: 2117654721817706497
+    second: flowerwin_5
+  - first:
+      213: -839540847278619841
+    second: flowerwin_6
+  - first:
+      213: -3165653098218882681
+    second: flowerwin_7
+  - first:
+      213: -5495867773899641910
+    second: flowerwin_8
+  - first:
+      213: -6743690112210267253
+    second: flowerwin_9
+  - first:
+      213: -7666393820492707250
+    second: flowerwin_10
+  - first:
+      213: -1273126158443497825
+    second: flowerwin_11
+  - first:
+      213: 7796136221077264168
+    second: flowerwin_12
+  - first:
+      213: -1795979521568769310
+    second: flowerwin_13
+  - first:
+      213: -7824401542602709475
+    second: flowerwin_14
+  - first:
+      213: -3298029095294974585
+    second: flowerwin_15
+  - first:
+      213: 1512926524942308378
+    second: flowerwin_16
+  - first:
+      213: -5163912940102443040
+    second: flowerwin_17
+  - first:
+      213: -8640559397222412768
+    second: flowerwin_18
+  - first:
+      213: 733334399085150716
+    second: flowerwin_19
+  - first:
+      213: -7033171774782187374
+    second: flowerwin_20
+  - first:
+      213: 3532437043087141978
+    second: flowerwin_21
+  - first:
+      213: 8475529383020858568
+    second: flowerwin_22
+  - first:
+      213: -9040667855529002758
+    second: flowerwin_23
+  - first:
+      213: -2355524000208790797
+    second: flowerwin_24
+  - first:
+      213: -4234970171864170348
+    second: flowerwin_25
+  - first:
+      213: 9157376909882529269
+    second: flowerwin_26
+  - first:
+      213: -3926829648722730510
+    second: flowerwin_27
+  - first:
+      213: -2104846326758027178
+    second: flowerwin_28
+  - first:
+      213: -7733590262472339985
+    second: flowerwin_29
+  - first:
+      213: -3222765462981915842
+    second: flowerwin_30
+  - first:
+      213: 7962047534265741001
+    second: flowerwin_31
+  - first:
+      213: 7422637660089478016
+    second: flowerwin_32
+  - first:
+      213: -7052662507138998093
+    second: flowerwin_33
+  - first:
+      213: 7685021569318687352
+    second: flowerwin_34
+  - first:
+      213: -5321918780053334040
+    second: flowerwin_35
+  - first:
+      213: 7045326575764158242
+    second: flowerwin_36
+  - first:
+      213: 4315126670946579154
+    second: flowerwin_37
+  - first:
+      213: 4027783235857393781
+    second: flowerwin_38
+  - first:
+      213: -59603367485576532
+    second: flowerwin_39
+  - first:
+      213: 5586098081513673679
+    second: flowerwin_40
+  - first:
+      213: 873020452596551703
+    second: flowerwin_41
+  - first:
+      213: 6443969154066550462
+    second: flowerwin_42
+  - first:
+      213: 5509223965958643858
+    second: flowerwin_43
+  - first:
+      213: -2469720597576731397
+    second: flowerwin_44
+  - first:
+      213: 2392267228507329850
+    second: flowerwin_45
+  - first:
+      213: 7923059186353927462
+    second: flowerwin_46
+  - first:
+      213: 1716419420710876521
+    second: flowerwin_47
+  - first:
+      213: 5636782662403108513
+    second: flowerwin_48
+  - first:
+      213: 658618247939555148
+    second: flowerwin_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flowerwin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a60b5c56546a1a0800000000000000
+      internalID: -6798670284058498550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f77cac230455410800000000000000
+      internalID: 1465147840673578775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b09868b6617afb0800000000000000
+      internalID: -4636712640280196275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae255cbb785a6bf0800000000000000
+      internalID: -330354334194389338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b381ab1216f35c110800000000000000
+      internalID: 1280499355466995771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1008fdaefbb636d10800000000000000
+      internalID: 2117654721817706497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3307872c0a5954f0800000000000000
+      internalID: -839540847278619841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7897c8e87475114d0800000000000000
+      internalID: -3165653098218882681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbe134c061cab3b0800000000000000
+      internalID: -5495867773899641910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_9
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83946292999962a0800000000000000
+      internalID: -6743690112210267253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a4845407f7b9590800000000000000
+      internalID: -7666393820492707250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_11
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96b7b31182f45ee0800000000000000
+      internalID: -1273126158443497825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_12
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827dddd5690713c60800000000000000
+      internalID: 7796136221077264168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_13
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea740104266317e0800000000000000
+      internalID: -1795979521568769310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_14
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16a521a0442a6390800000000000000
+      internalID: -7824401542602709475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7854a04f20c0b32d0800000000000000
+      internalID: -3298029095294974585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_16
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14d37a98aefef410800000000000000
+      internalID: 1512926524942308378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_17
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef96226a881658b0800000000000000
+      internalID: -5163912940102443040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_18
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e05e30201961880800000000000000
+      internalID: -8640559397222412768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_19
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf18b0720c35d2a00800000000000000
+      internalID: 733334399085150716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_20
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298ddcfb887256e90800000000000000
+      internalID: -7033171774782187374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_21
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ce3a866ccb50130800000000000000
+      internalID: 3532437043087141978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_22
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc085e81112f9570800000000000000
+      internalID: 8475529383020858568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_23
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8b6e22c78198280800000000000000
+      internalID: -9040667855529002758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_24
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fad5a3e66f7f4fd0800000000000000
+      internalID: -2355524000208790797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_25
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49049a7011d5a35c0800000000000000
+      internalID: -4234970171864170348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_26
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f599eb18c9851f70800000000000000
+      internalID: 9157376909882529269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_27
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1e86e5d391189c0800000000000000
+      internalID: -3926829648722730510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_28
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6505dc2fa651ac2e0800000000000000
+      internalID: -2104846326758027178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_29
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed8aee61a4cca490800000000000000
+      internalID: -7733590262472339985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_30
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bc098e2ef6643d0800000000000000
+      internalID: -3222765462981915842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_31
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce2fa43c00ee7e60800000000000000
+      internalID: 7962047534265741001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_32
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08be11200a1820760800000000000000
+      internalID: 7422637660089478016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_33
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0a34df0d8ef1e90800000000000000
+      internalID: -7052662507138998093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_34
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872947a766ea6aa60800000000000000
+      internalID: 7685021569318687352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_35
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7d077f01fb426b0800000000000000
+      internalID: -5321918780053334040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_36
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227ba03613706c160800000000000000
+      internalID: 7045326575764158242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_37
+      rect:
+        serializedVersion: 2
+        x: 4662
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2b59e38d862eb30800000000000000
+      internalID: 4315126670946579154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_38
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578ad8d438f85e730800000000000000
+      internalID: 4027783235857393781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_39
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaea959d0f3c2ff0800000000000000
+      internalID: -59603367485576532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_40
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc31d15db9ec58d40800000000000000
+      internalID: 5586098081513673679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_41
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101ba6e9779d1c00800000000000000
+      internalID: 873020452596551703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_42
+      rect:
+        serializedVersion: 2
+        x: 5292
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe06b3ddc39d6950800000000000000
+      internalID: 6443969154066550462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_43
+      rect:
+        serializedVersion: 2
+        x: 5418
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290a8070202b47c40800000000000000
+      internalID: 5509223965958643858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_44
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf439fe933ac9bdd0800000000000000
+      internalID: -2469720597576731397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_45
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35dcfa9e5a033120800000000000000
+      internalID: 2392267228507329850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_46
+      rect:
+        serializedVersion: 2
+        x: 5796
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62575011a5c54fd60800000000000000
+      internalID: 7923059186353927462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_47
+      rect:
+        serializedVersion: 2
+        x: 5922
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965bd018e52f1d710800000000000000
+      internalID: 1716419420710876521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_48
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae2e9c67ffd93e40800000000000000
+      internalID: 5636782662403108513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowerwin_49
+      rect:
+        serializedVersion: 2
+        x: 6174
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ff6079ec1e32900800000000000000
+      internalID: 658618247939555148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 46d07194e97f6e94ab4683aac1d9d333
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":50.0,"y":1.0},"gridSpriteSize":{"x":126.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      flowerwin_0: -6798670284058498550
+      flowerwin_1: 1465147840673578775
+      flowerwin_10: -7666393820492707250
+      flowerwin_11: -1273126158443497825
+      flowerwin_12: 7796136221077264168
+      flowerwin_13: -1795979521568769310
+      flowerwin_14: -7824401542602709475
+      flowerwin_15: -3298029095294974585
+      flowerwin_16: 1512926524942308378
+      flowerwin_17: -5163912940102443040
+      flowerwin_18: -8640559397222412768
+      flowerwin_19: 733334399085150716
+      flowerwin_2: -4636712640280196275
+      flowerwin_20: -7033171774782187374
+      flowerwin_21: 3532437043087141978
+      flowerwin_22: 8475529383020858568
+      flowerwin_23: -9040667855529002758
+      flowerwin_24: -2355524000208790797
+      flowerwin_25: -4234970171864170348
+      flowerwin_26: 9157376909882529269
+      flowerwin_27: -3926829648722730510
+      flowerwin_28: -2104846326758027178
+      flowerwin_29: -7733590262472339985
+      flowerwin_3: -330354334194389338
+      flowerwin_30: -3222765462981915842
+      flowerwin_31: 7962047534265741001
+      flowerwin_32: 7422637660089478016
+      flowerwin_33: -7052662507138998093
+      flowerwin_34: 7685021569318687352
+      flowerwin_35: -5321918780053334040
+      flowerwin_36: 7045326575764158242
+      flowerwin_37: 4315126670946579154
+      flowerwin_38: 4027783235857393781
+      flowerwin_39: -59603367485576532
+      flowerwin_4: 1280499355466995771
+      flowerwin_40: 5586098081513673679
+      flowerwin_41: 873020452596551703
+      flowerwin_42: 6443969154066550462
+      flowerwin_43: 5509223965958643858
+      flowerwin_44: -2469720597576731397
+      flowerwin_45: 2392267228507329850
+      flowerwin_46: 7923059186353927462
+      flowerwin_47: 1716419420710876521
+      flowerwin_48: 5636782662403108513
+      flowerwin_49: 658618247939555148
+      flowerwin_5: 2117654721817706497
+      flowerwin_6: -839540847278619841
+      flowerwin_7: -3165653098218882681
+      flowerwin_8: -5495867773899641910
+      flowerwin_9: -6743690112210267253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
