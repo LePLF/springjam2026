@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Moush_Mexican
   m_EditorClassIdentifier: Assembly-CSharp::MoushSpawnData
   moushPrefab: {fileID: 5334677949605878692, guid: 1fb8b8f99cadcdf4286e1ab41a063e0b, type: 3}
-  moushSpawnWeight: 50
-  combinedWeight: 0
+  moushSpawnWeight: 20
+  combinedWeight: 200
   cooldown: 0.1

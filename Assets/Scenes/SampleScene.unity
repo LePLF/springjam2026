@@ -306,9 +306,9 @@ MonoBehaviour:
   baseMoush: {fileID: 1674218296236322627, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
   spawnList:
   - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
-  - {fileID: 11400000, guid: 7c8817df1ead2fa42be34dbbb36c089a, type: 2}
   - {fileID: 11400000, guid: 539f5d8e7ad69d44c8c5d94ec9f1fcbc, type: 2}
-  - {fileID: 11400000, guid: 37765528a18a73a4e93e24611da67a8a, type: 2}
+  - {fileID: 11400000, guid: 539f5d8e7ad69d44c8c5d94ec9f1fcbc, type: 2}
+  - {fileID: 11400000, guid: 539f5d8e7ad69d44c8c5d94ec9f1fcbc, type: 2}
   - {fileID: 11400000, guid: 29f6ee2ca1711d24cb007281ad9b8c84, type: 2}
   spawnerBaseCooldown: 2
   maxSpawnedEntities: 0
@@ -2418,7 +2418,7 @@ Transform:
   m_GameObject: {fileID: 1621745641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.66, y: -10.61, z: 0}
+  m_LocalPosition: {x: 6.84, y: -10.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2879,7 +2879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e8d7e0c60a18642b59725e49c49e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  scoreToEnd: 100
+  scoreToEnd: 25
   scoreToLose: -100
   currentScore: 0
   onGainBloom:
@@ -3086,7 +3086,7 @@ Transform:
   m_GameObject: {fileID: 1919528101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.18, y: -10.61, z: 0}
+  m_LocalPosition: {x: -5.32, y: -10.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

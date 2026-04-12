@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd63a0eeddbd22a40aa019c04a4a9fb9, type: 3}
   m_Name: moushData_MAxiMoush
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
-  maxHealth: 3
+  maxHealth: 2
   moveSpeed: 1
   JitterSpeed: 2
   scoreValue: 30

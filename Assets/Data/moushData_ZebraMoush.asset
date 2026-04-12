@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
   maxHealth: 1
   moveSpeed: 5
-  JitterSpeed: 2
+  JitterSpeed: 5
   scoreValue: 30
   bloomValue: -10
   scoreMouche: {fileID: 76396244076500921, guid: 1cda29739f7db1a4a9047337fdfbcef9, type: 3}
