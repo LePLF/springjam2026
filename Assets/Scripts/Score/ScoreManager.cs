@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     [Header("Bloom Score")]
     public float scoreToEnd = 100f;
     public float scoreToLose = -100f;
-    public float currentScore;
+    public static float currentScore;
     public UnityEvent onGainBloom;
     public UnityEvent onLoseBloom;
 
