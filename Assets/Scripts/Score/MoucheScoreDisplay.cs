@@ -38,6 +38,7 @@ public class MoucheScoreDisplay : MonoBehaviour
         player2Kills = scoreManager.player2Kills;
         player1KillValues = scoreManager.player1KillValues;
         player2KillValues = scoreManager.player2KillValues;
+        StartScoreCounting();
     }
 
     public void StartScoreCounting()
@@ -52,22 +53,27 @@ public class MoucheScoreDisplay : MonoBehaviour
 
         while (isScoreDisplaying)
         {
-
-            if (p1 != player1Kills.Count)
+            if (player1Kills.Count != 0)
             {
-                Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
+                if (p1 != player1Kills.Count)
+                {
+                    Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
 
-                p1ScoreDisplay += player1KillValues[p1];
+                    p1ScoreDisplay += player1KillValues[p1];
+                }
             }
-
+            
             yield return new WaitForSeconds(displaySpeed);
 
-            if (p2 != player2Kills.Count)
+            if (player2Kills.Count != 0)
             {
-                Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
+                if (p2 != player2Kills.Count)
+                {
+                    Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
 
-                p2ScoreDisplay += player2KillValues[p2];
-            }
+                    p2ScoreDisplay += player2KillValues[p2];
+                }
+            }            
 
             p1++;
             p2++;

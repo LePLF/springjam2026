@@ -47,7 +47,7 @@ public class TargetableHealthManager : MonoBehaviour
         {
 
             print("ouille");
-            score.ApplyPlayerScore(playerIndex, scoreValue);
+            score.ApplyPlayerScore(playerIndex, scoreValue, creatureData);
 
             //Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();

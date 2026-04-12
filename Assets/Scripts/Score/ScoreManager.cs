@@ -67,12 +67,14 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void ApplyPlayerScore(int playerIndex, int scoreValue)
+    public void ApplyPlayerScore(int playerIndex, int scoreValue, TargetableData scoreMouche)
     {
+        AddEnemyToPlayerScoreArray(playerIndex, scoreMouche);
         print("score++");
         if (playerIndex == 0)
         {
             player1Score += scoreValue;
+
         }
         else
         {
@@ -90,10 +92,10 @@ public class ScoreManager : MonoBehaviour
 
     }
 
-    public void AddEnemyToPlayerScoreArray(int playerIndex, EMoucheID moucheID, TargetableData scoreMouche)
+    public void AddEnemyToPlayerScoreArray(int playerIndex, TargetableData scoreMouche)
     {
         
-        if (playerIndex < 0)
+        if (playerIndex > 0)
         {
             player2Kills.Add(scoreMouche.scoreMouche);
             player2KillValues.Add(scoreMouche.scoreValue);
@@ -101,7 +103,7 @@ public class ScoreManager : MonoBehaviour
         else
         {
             player1Kills.Add(scoreMouche.scoreMouche);
-            player2KillValues.Add(scoreMouche.scoreValue);
+            player1KillValues.Add(scoreMouche.scoreValue);
         }
     }
 

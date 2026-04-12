@@ -2057,7 +2057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e8d7e0c60a18642b59725e49c49e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  scoreToEnd: 100
+  scoreToEnd: 2
   scoreToLose: -100
   currentScore: 0
   onGainBloom:
@@ -2083,7 +2083,19 @@ MonoBehaviour:
       m_Calls: []
   onGameEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822192451}
+        m_TargetAssemblyTypeName: MoucheScoreDisplay, Assembly-CSharp
+        m_MethodName: FindPlayerScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1804405722
 Transform:
   m_ObjectHideFlags: 0
@@ -2093,7 +2105,7 @@ Transform:
   m_GameObject: {fileID: 1804405720}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.6297, y: 12.88037, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2208,7 +2220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoucheScoreDisplay
   scoreManager: {fileID: 1804405721}
-  displaySpeed: 0
+  displaySpeed: 1
   player1KillValues: 
   player2KillValues: 
   p1ScoreSpawnPoint: {fileID: 1621745642}
@@ -2238,7 +2250,7 @@ Transform:
   m_GameObject: {fileID: 1919528101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.0185, y: -11.47959, z: 0}
+  m_LocalPosition: {x: 4.9814997, y: -11.47959, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

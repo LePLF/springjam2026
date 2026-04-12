@@ -9,6 +9,6 @@ public class ScoreDisplay : MonoBehaviour
     private void Update()
     {
         tmpP1.text = "P1 : " + MoucheScoreDisplay.p1ScoreDisplay;
-        tmpP2.text = "P2 : " + MoucheScoreDisplay.p1ScoreDisplay;
+        tmpP2.text = "P2 : " + MoucheScoreDisplay.p2ScoreDisplay;
     }
 }
