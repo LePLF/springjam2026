@@ -27,6 +27,11 @@ public class TargetableHealthManager : MonoBehaviour
     public GameObject scoreManager;
     private ScoreManager score;
 
+    [Header("Events")]
+    public UnityEvent onMoushHit;
+    public UnityEvent onBeeHit;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,12 +50,22 @@ public class TargetableHealthManager : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+            if(creatureData.scoreValue > 0)
+            {
+                onBeeHit.Invoke();
+            }
+            else
+            {
+                onMoushHit.Invoke();
+            }
 
-            print("Player " + playerIndex);
+
+
+                print("Player " + playerIndex);
             print("Data  " + creatureData.scoreMouche.name);
             score.ApplyPlayerScore(playerIndex, creatureData.scoreValue, creatureData);
 
-            //Instantiate(onDeathEffect,transform.position, Quaternion.identity);
+            Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();
         }
         else OnTakeDamage.Invoke();

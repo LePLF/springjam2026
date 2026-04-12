@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MoucheScoreDisplay : MonoBehaviour
 {
     public ScoreManager scoreManager;
 
     public float displaySpeed;
+    public float timeToDisplayWinner;
     private bool isScoreDisplaying;
 
     private List<GameObject> player1Kills = new List<GameObject>();
@@ -23,9 +25,14 @@ public class MoucheScoreDisplay : MonoBehaviour
     private int p1;
     private int p2;
 
-
+    [Header("MoucheDisplay Spawnpoint")]
     public Transform p1ScoreSpawnPoint;
     public Transform p2ScoreSpawnPoint;
+
+    [Header("WinnerEvents")]
+    public UnityEvent onPlayer1Win;
+    public UnityEvent onPlayer2Win;
+    public UnityEvent onDraw;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -80,7 +87,22 @@ public class MoucheScoreDisplay : MonoBehaviour
 
             if (p1 == player1Kills.Count || p2 == player2Kills.Count)
             {
-                p1 = 0;
+                yield return new WaitForSeconds(displaySpeed);
+                
+                if(p1ScoreDisplay > p2ScoreDisplay)
+                {
+                    onPlayer1Win.Invoke();
+                }
+                else if (p1ScoreDisplay < p2ScoreDisplay)
+                {
+                    onPlayer2Win.Invoke();
+                }
+                else
+                {
+                    onDraw.Invoke();
+                }
+
+                    p1 = 0;
                 p2 = 0;
                 isScoreDisplaying = true;
                 break;
