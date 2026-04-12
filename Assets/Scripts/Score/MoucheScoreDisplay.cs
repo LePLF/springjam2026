@@ -13,6 +13,13 @@ public class MoucheScoreDisplay : MonoBehaviour
 
     private List<GameObject> player1Kills = new List<GameObject>();
     private List<GameObject> player2Kills = new List<GameObject>();
+
+    public List<int> player1KillValues = new List<int>();
+    public List<int> player2KillValues = new List<int>();
+
+    public int p1ScoreDisplay;
+    public int p2ScoreDisplay;
+
     private int p1;
     private int p2;
 
@@ -30,6 +37,8 @@ public class MoucheScoreDisplay : MonoBehaviour
     {
         player1Kills = scoreManager.player1Kills;
         player2Kills = scoreManager.player2Kills;
+        player1KillValues = scoreManager.player1KillValues;
+        player2KillValues = scoreManager.player2KillValues;
     }
 
     public void StartScoreCounting()
@@ -48,6 +57,8 @@ public class MoucheScoreDisplay : MonoBehaviour
             if (p1 != player1Kills.Count)
             {
                 Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
+
+                p1ScoreDisplay += player1KillValues[p1];
             }
 
             yield return new WaitForSeconds(displaySpeed);
@@ -55,6 +66,8 @@ public class MoucheScoreDisplay : MonoBehaviour
             if (p2 != player2Kills.Count)
             {
                 Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
+
+                p2ScoreDisplay += player2KillValues[p2];
             }
 
             p1++;

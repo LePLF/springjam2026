@@ -34,17 +34,21 @@ public class TargetableHealthManager : MonoBehaviour
         currentHealth = creatureData.maxHealth;
         moveSpeed = creatureData.moveSpeed;
         jitterSpeed = creatureData.JitterSpeed;
+        score = scoreManager.GetComponent<ScoreManager>();
 
         StartCoroutine(MoveToRandomPoint());
     }
 
     public void TakeDamage(float damage, int playerIndex)
     {
-        print("ouille");
+        print(score);
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+
+            print("ouille");
             score.ApplyPlayerScore(playerIndex, scoreValue);
+
             //Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();
         }
