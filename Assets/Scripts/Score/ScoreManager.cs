@@ -31,6 +31,8 @@ public class ScoreManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player1Kills.Clear();
+        player2Kills.Clear();
         player1Score = 0;
         player2Score = 0;
         currentScore = 0;
@@ -82,15 +84,16 @@ public class ScoreManager : MonoBehaviour
 
     }
 
-    public void AddEnemyToPlayerScoreArray(int playerIndex, EMoucheID moucheID)
+    public void AddEnemyToPlayerScoreArray(int playerIndex, EMoucheID moucheID, TargetableData scoreMouche)
     {
+        
         if (playerIndex < 0)
         {
-
+            player2Kills.Add(scoreMouche.scoreMouche);
         }
         else
         {
-           
+            player1Kills.Add(scoreMouche.scoreMouche);
         }
     }
 

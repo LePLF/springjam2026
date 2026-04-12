@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd63a0eeddbd22a40aa019c04a4a9fb9, type: 3}
   m_Name: moushData_MAxiMoush
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
-  creatureSprite: {fileID: 0}
   maxHealth: 3
   moveSpeed: 1
   JitterSpeed: 2
   scoreValue: 30
   bloomValue: -10
+  scoreMouche: {fileID: 76396244076500921, guid: 97cea56550dc07647ab8077ed2893402, type: 3}

@@ -277,7 +277,7 @@ MonoBehaviour:
   spawnList:
   - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
   - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
-  spawnerBaseCooldown: 0
+  spawnerBaseCooldown: 5
   maxSpawnedEntities: 0
   isGameEnded: 0
 --- !u!1 &343386020
@@ -821,6 +821,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804405721}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: boxSize.x
       value: 1
@@ -1390,6 +1394,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804405721}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: boxSize.x
       value: 1

@@ -45,7 +45,7 @@ public class TargetableHealthManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             score.ApplyPlayerScore(playerIndex, scoreValue);
-            Instantiate(onDeathEffect,transform.position, Quaternion.identity);
+            //Instantiate(onDeathEffect,transform.position, Quaternion.identity);
             OnDeath.Invoke();
         }
         else OnTakeDamage.Invoke();

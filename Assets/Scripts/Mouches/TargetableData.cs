@@ -12,5 +12,6 @@ public class TargetableData : ScriptableObject
     [Header("Score")]
     public int scoreValue;
     public int bloomValue;
+    public GameObject scoreMouche;
 
 }

@@ -56,7 +56,6 @@ public class CreatureSpawner : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(moushSpawnCooldown + spawnerBaseCooldown);
-           
 
             instantiatedFly = Instantiate(GetRandomMoush(ref moushSpawnCooldown),transform.position, Quaternion.identity);
 
