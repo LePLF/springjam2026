@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 86427ef2b6cd0454288071f9fcc0928d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3982034707088177531
+    second: flowergood_0
+  - first:
+      213: -3693713936367259046
+    second: flowergood_1
+  - first:
+      213: 2390508442695404184
+    second: flowergood_2
+  - first:
+      213: -4653653599761406398
+    second: flowergood_3
+  - first:
+      213: 4001813665974351279
+    second: flowergood_4
+  - first:
+      213: 3836169597573523014
+    second: flowergood_5
+  - first:
+      213: 3694085249912509376
+    second: flowergood_6
+  - first:
+      213: -1563079362515934706
+    second: flowergood_7
+  - first:
+      213: -8218063246274945364
+    second: flowergood_8
+  - first:
+      213: 7338130891151673789
+    second: flowergood_9
+  - first:
+      213: 304707396645452437
+    second: flowergood_10
+  - first:
+      213: -3758279830348969187
+    second: flowergood_11
+  - first:
+      213: -7647265112307703928
+    second: flowergood_12
+  - first:
+      213: -7934067737705097973
+    second: flowergood_13
+  - first:
+      213: -975122658186161863
+    second: flowergood_14
+  - first:
+      213: -2055337950146411387
+    second: flowergood_15
+  - first:
+      213: -8502384532851785253
+    second: flowergood_16
+  - first:
+      213: 504915623090349039
+    second: flowergood_17
+  - first:
+      213: 2926592415913963371
+    second: flowergood_18
+  - first:
+      213: 6564116089673543123
+    second: flowergood_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flowergood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5868bb81888fcb8c0800000000000000
+      internalID: -3982034707088177531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a527be8beba4dbcc0800000000000000
+      internalID: -3693713936367259046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a8e6f53cacc2120800000000000000
+      internalID: 2390508442695404184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246e08605b6ea6fb0800000000000000
+      internalID: -4653653599761406398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa574b1a35c498730800000000000000
+      internalID: 4001813665974351279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e5819cefcc3530800000000000000
+      internalID: 3836169597573523014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c39b0376f6044330800000000000000
+      internalID: 3694085249912509376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e026e71f993de4ae0800000000000000
+      internalID: -1563079362515934706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae9618c40393fd80800000000000000
+      internalID: -8218063246274945364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_9
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db98a6a9a2746d560800000000000000
+      internalID: 7338130891151673789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a7c7943c98a3400800000000000000
+      internalID: 304707396645452437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_11
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc8811868e7dbc0800000000000000
+      internalID: -3758279830348969187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_12
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f59a5b5e47fd590800000000000000
+      internalID: -7647265112307703928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_13
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b055336dd6784e190800000000000000
+      internalID: -7934067737705097973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_14
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931116adb1ba772f0800000000000000
+      internalID: -975122658186161863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584c4242609f973e0800000000000000
+      internalID: -2055337950146411387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_16
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1089f9056710a80800000000000000
+      internalID: -8502384532851785253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_17
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe368d38512d10700800000000000000
+      internalID: 504915623090349039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_18
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f67e8eb485d9820800000000000000
+      internalID: 2926592415913963371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowergood_19
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 0
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddea6d2ecc681b50800000000000000
+      internalID: 6564116089673543123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 338c0292f3a154d47bfd0fbf71425bda
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":126.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      flowergood_0: -3982034707088177531
+      flowergood_1: -3693713936367259046
+      flowergood_10: 304707396645452437
+      flowergood_11: -3758279830348969187
+      flowergood_12: -7647265112307703928
+      flowergood_13: -7934067737705097973
+      flowergood_14: -975122658186161863
+      flowergood_15: -2055337950146411387
+      flowergood_16: -8502384532851785253
+      flowergood_17: 504915623090349039
+      flowergood_18: 2926592415913963371
+      flowergood_19: 6564116089673543123
+      flowergood_2: 2390508442695404184
+      flowergood_3: -4653653599761406398
+      flowergood_4: 4001813665974351279
+      flowergood_5: 3836169597573523014
+      flowergood_6: 3694085249912509376
+      flowergood_7: -1563079362515934706
+      flowergood_8: -8218063246274945364
+      flowergood_9: 7338130891151673789
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
