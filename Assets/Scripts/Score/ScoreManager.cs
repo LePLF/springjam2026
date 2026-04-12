@@ -29,6 +29,7 @@ public class ScoreManager : MonoBehaviour
     public UnityEvent onGameEnd;
 
     [Header("Camera Move")]
+    public GameObject cameraMoover;
     [SerializeField] private MooveCameraEnd mooveCameraEnd;
 
     void Start()
@@ -40,6 +41,7 @@ public class ScoreManager : MonoBehaviour
         player1Score = 0;
         player2Score = 0;
         currentScore = 0;
+        mooveCameraEnd = cameraMoover.GetComponent<MooveCameraEnd>();
     }
 
     public void ApplyBloom(int scoreValue)
