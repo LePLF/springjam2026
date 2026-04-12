@@ -23,6 +23,10 @@ public class ScoreManager : MonoBehaviour
     public List<GameObject> player2Kills = new List<GameObject>();
 
 
+    public List <int> player1KillValues = new List<int>();
+    public List <int> player2KillValues = new List<int>();
+
+
     [Header("Game State")]
     public UnityEvent onGameLost;
     public UnityEvent onGameEnd;
@@ -33,6 +37,8 @@ public class ScoreManager : MonoBehaviour
     {
         player1Kills.Clear();
         player2Kills.Clear();
+        player1KillValues.Clear();
+        player2KillValues.Clear();
         player1Score = 0;
         player2Score = 0;
         currentScore = 0;
@@ -90,10 +96,12 @@ public class ScoreManager : MonoBehaviour
         if (playerIndex < 0)
         {
             player2Kills.Add(scoreMouche.scoreMouche);
+            player2KillValues.Add(scoreMouche.scoreValue);
         }
         else
         {
             player1Kills.Add(scoreMouche.scoreMouche);
+            player2KillValues.Add(scoreMouche.scoreValue);
         }
     }
 

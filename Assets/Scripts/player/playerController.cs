@@ -35,6 +35,10 @@ public class playerController : MonoBehaviour
 
     private Vector2 movement;
     private Rigidbody2D rb;
+    
+    [Header("Animators")]
+    public Animator animator;
+    public Animator Rotanimator;
 
     private void Awake()
     {
@@ -56,7 +60,7 @@ public class playerController : MonoBehaviour
 
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
-        
+        animator.SetTrigger("Hit");
         foreach(Collider2D target in targets)
         {
 
@@ -126,6 +130,10 @@ public class playerController : MonoBehaviour
 
         rb.linearVelocity = movement * currentMoveSpeed;
 
+        
+        // Trucs mouvement anim à Valentin (le gars ki pue là)
+        animator.SetFloat("VerticalInput", playerinputManager.p1Movement.y);
+        animator.SetFloat("VerticalInput", playerinputManager.p2Movement.y);
     }
 
     private void OnDrawGizmos()
