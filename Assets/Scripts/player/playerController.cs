@@ -20,6 +20,7 @@ public class playerController : MonoBehaviour
     public int damageValue = 1;
     public LayerMask attackLayerMask;
     public Vector2 boxSize;
+    public UnityEvent onAttackMiss;
     public UnityEvent OnStun;
     public float attackCooldown;
     private float lastAttackTime;
@@ -68,7 +69,7 @@ public class playerController : MonoBehaviour
         if (isStunned) return;
         if (!CooldownCheck(attackCooldown)) return;
         print(playerIndex);
-
+        onAttackMiss.Invoke();
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
         animator.SetTrigger("Hit");
