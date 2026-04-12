@@ -42,9 +42,6 @@ public class playerController : MonoBehaviour
     public GameObject sprite;
     public GameObject handle;
     private Animator animator2;
-    private Animator Rotanimator2;
-    public GameObject sprite2;
-    public GameObject handle2;
 
     [Header("Boundaries")]
     public Vector2 minBounds;
@@ -67,10 +64,7 @@ public class playerController : MonoBehaviour
         currentMoveSpeed = moveSpeed;
         animator = sprite.GetComponent<Animator>();
         Rotanimator = handle.GetComponent<Animator>();
-        animator2 = sprite2.GetComponent<Animator>();
-        Rotanimator2 = handle2.GetComponent<Animator>();
-        animator2.SetBool("is2", isPlayer2);
-        print(gameObject +","+ isPlayer2);
+        animator.SetBool("is2", isPlayer2);
     }
 
     public void StartAttack()
@@ -81,14 +75,8 @@ public class playerController : MonoBehaviour
 
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
-        if (isPlayer2)
-        {
-            animator2.SetTrigger("Hit");
-        }
-        else
-        {
-            animator.SetTrigger("Hit");
-        }
+        animator2.SetTrigger("Hit");
+        
         foreach(Collider2D target in targets)
         {
 
@@ -149,8 +137,8 @@ public class playerController : MonoBehaviour
         if(isPlayer2)
         {
             movement.Set(playerinputManager.p2Movement.x, playerinputManager.p2Movement.y);
-            animator2.SetFloat("Vert", playerinputManager.p2MoveAction.ReadValue<Vector2>().y);
-            Rotanimator2.SetFloat("Horiz", playerinputManager.p2MoveAction.ReadValue<Vector2>().x);
+            animator.SetFloat("Vert", playerinputManager.p2MoveAction.ReadValue<Vector2>().y);
+            Rotanimator.SetFloat("Horiz", playerinputManager.p2MoveAction.ReadValue<Vector2>().x);
         }
         else
         {
