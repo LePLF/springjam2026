@@ -37,8 +37,14 @@ public class playerController : MonoBehaviour
     private Rigidbody2D rb;
     
     [Header("Animators")]
-    public Animator animator;
-    public Animator Rotanimator;
+    private Animator animator;
+    private Animator Rotanimator;
+    public GameObject sprite;
+    public GameObject handle;
+    private Animator animator2;
+    private Animator Rotanimator2;
+    public GameObject sprite2;
+    public GameObject handle2;
 
     [Header("Boundaries")]
     public Vector2 minBounds;
@@ -58,6 +64,10 @@ public class playerController : MonoBehaviour
     void Start()
     {
         currentMoveSpeed = moveSpeed;
+        animator = sprite.GetComponent<Animator>();
+        Rotanimator = handle.GetComponent<Animator>();
+        //animator2 = sprite2.GetComponent<Animator>();
+        //Rotanimator2 = handle2.GetComponent<Animator>();
     }
 
     public void StartAttack()
@@ -68,7 +78,14 @@ public class playerController : MonoBehaviour
 
         print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
-        animator.SetTrigger("Hit");
+        if (isPlayer2)
+        {
+            animator2.SetTrigger("Hit");
+        }
+        else
+        {
+            animator.SetTrigger("Hit");
+        }
         foreach(Collider2D target in targets)
         {
 
@@ -125,21 +142,30 @@ public class playerController : MonoBehaviour
     {
         
         if (isStunned) return;
+
+        print(playerinputManager.p1MoveAction.ReadValue<Vector2>().y);
         if(isPlayer2)
         {
             movement.Set(playerinputManager.p2Movement.x, playerinputManager.p2Movement.y);
+            animator2.SetFloat("Vert", playerinputManager.p2MoveAction.ReadValue<Vector2>().y);
+            Rotanimator2.SetFloat("Horiz", playerinputManager.p2MoveAction.ReadValue<Vector2>().x);
         }
         else
         {
             movement.Set(playerinputManager.p1Movement.x, playerinputManager.p1Movement.y);
+            animator.SetFloat("Vert", playerinputManager.p1MoveAction.ReadValue<Vector2>().y);
+            Rotanimator.SetFloat("Horiz", playerinputManager.p1MoveAction.ReadValue<Vector2>().x);
         }
 
         rb.linearVelocity = movement * currentMoveSpeed;
 
         
+<<<<<<< Updated upstream
         // Trucs mouvement anim à Valentin (le gars ki pue là)
         // animator.SetFloat("VerticalInput", playerinputManager.p1Movement.y);
        // animator.SetFloat("VerticalInput", playerinputManager.p2Movement.y);
+=======
+>>>>>>> Stashed changes
 
         Vector2 clampedPos = new Vector2(Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x), Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y));
         transform.position = clampedPos;

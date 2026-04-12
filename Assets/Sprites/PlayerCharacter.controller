@@ -109,7 +109,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: VerticalInput
+    m_ConditionEvent: Vert
     m_EventTreshold: 0.49
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1749624006087317446}
@@ -163,7 +163,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: VerticalInput
+    m_ConditionEvent: Vert
     m_EventTreshold: -0.49
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4975315594483898722}
@@ -188,7 +188,7 @@ AnimatorController:
   m_Name: PlayerCharacter
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: VerticalInput
+  - m_Name: Vert
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -379,7 +379,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: VerticalInput
+    m_ConditionEvent: Vert
     m_EventTreshold: -0.49
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1749624006087317446}
@@ -404,7 +404,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: VerticalInput
+    m_ConditionEvent: Vert
     m_EventTreshold: 0.49
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1803845299399776519}

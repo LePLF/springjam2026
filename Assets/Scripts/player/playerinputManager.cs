@@ -12,8 +12,8 @@ public class playerinputManager : MonoBehaviour
 
     private PlayerInput playerInput;
 
-    private InputAction p1MoveAction;
-    private InputAction p2MoveAction;
+    public static InputAction p1MoveAction;
+    public static InputAction p2MoveAction;
 
     private InputAction p1AttackAction;
     private InputAction p2AttackAction;
