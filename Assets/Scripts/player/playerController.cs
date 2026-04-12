@@ -59,6 +59,7 @@ public class playerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (isOnMenu == true ) return;
         score = scoreManager.GetComponent<ScoreManager>();
+        
     }
 
     void Start()
@@ -68,6 +69,8 @@ public class playerController : MonoBehaviour
         Rotanimator = handle.GetComponent<Animator>();
         animator2 = sprite2.GetComponent<Animator>();
         Rotanimator2 = handle2.GetComponent<Animator>();
+        animator2.SetBool("is2", isPlayer2);
+        print(gameObject +","+ isPlayer2);
     }
 
     public void StartAttack()
@@ -142,8 +145,7 @@ public class playerController : MonoBehaviour
     {
         
         if (isStunned) return;
-
-        print(playerinputManager.p1MoveAction.ReadValue<Vector2>().y);
+        
         if(isPlayer2)
         {
             movement.Set(playerinputManager.p2Movement.x, playerinputManager.p2Movement.y);
