@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class MooveCameraEnd : MonoBehaviour
 {
     [SerializeField] private Vector2   pointA;
@@ -15,9 +15,16 @@ public class MooveCameraEnd : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current.rightButton.wasPressedThisFrame)
-            _target = _target == pointA ? (Vector2)pointB.position : pointA;
-
         transform.position = Vector2.MoveTowards(transform.position, _target, moveSpeed * Time.deltaTime);
+    }
+
+    public void MoveToB()
+    {
+        _target = pointB.position;
+    }
+
+    public void MoveToA()
+    {
+        _target = pointA;
     }
 }

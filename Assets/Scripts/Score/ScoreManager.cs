@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-
 public class ScoreManager : MonoBehaviour
 {
     [Header("Bloom Score")]
@@ -22,17 +21,16 @@ public class ScoreManager : MonoBehaviour
     public List<GameObject> player1Kills = new List<GameObject>();
     public List<GameObject> player2Kills = new List<GameObject>();
 
-
-    public List <int> player1KillValues = new List<int>();
-    public List <int> player2KillValues = new List<int>();
-
+    public List<int> player1KillValues = new List<int>();
+    public List<int> player2KillValues = new List<int>();
 
     [Header("Game State")]
     public UnityEvent onGameLost;
     public UnityEvent onGameEnd;
 
+    [Header("Camera Move")]
+    [SerializeField] private MooveCameraEnd mooveCameraEnd;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player1Kills.Clear();
@@ -57,11 +55,11 @@ public class ScoreManager : MonoBehaviour
             currentScore += scoreValue;
             onGainBloom.Invoke();
         }
-        if (scoreValue >= scoreToEnd)
+        if (currentScore >= scoreToEnd)
         {
             EndGame();
         }
-        else if (scoreValue <= scoreToLose)
+        else if (currentScore <= scoreToLose)
         {
             GameLost();
         }
@@ -74,14 +72,13 @@ public class ScoreManager : MonoBehaviour
         if (playerIndex == 0)
         {
             player1Score += scoreValue;
-
         }
         else
         {
             player2Score += scoreValue;
         }
 
-        if (scoreValue <0)
+        if (scoreValue < 0)
         {
             onPlayerLoseScore.Invoke();
         }
@@ -89,12 +86,10 @@ public class ScoreManager : MonoBehaviour
         {
             onPlayerGainScore.Invoke();
         }
-
     }
 
     public void AddEnemyToPlayerScoreArray(int playerIndex, TargetableData scoreMouche)
     {
-        
         if (playerIndex > 0)
         {
             player2Kills.Add(scoreMouche.scoreMouche);
@@ -107,10 +102,10 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-
     void EndGame()
     {
         print("game end");
+        mooveCameraEnd.MoveToB();
         onGameEnd.Invoke();
     }
 
@@ -120,9 +115,7 @@ public class ScoreManager : MonoBehaviour
         onGameLost.Invoke();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
     }
 }
