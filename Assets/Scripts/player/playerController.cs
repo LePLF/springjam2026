@@ -20,12 +20,17 @@ public class playerController : MonoBehaviour
     public int damageValue = 1;
     public LayerMask attackLayerMask;
     public Vector2 boxSize;
+    public AudioClip missSound;
+    public AudioClip hitSound;
+    public AudioClip enemyPlayerHitSound;
     public UnityEvent onAttackMiss;
     public UnityEvent OnStun;
     public float attackCooldown;
     private float lastAttackTime;
     [SerializeField]private float stunDuration;
     private bool isStunned;
+
+    private AudioSource audioSource;
 
     public GameObject scoreManager;
     public ScoreManager score;
@@ -53,6 +58,8 @@ public class playerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (isOnMenu == true ) return;
         score = scoreManager.GetComponent<ScoreManager>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
         
     }
 
@@ -73,23 +80,27 @@ public class playerController : MonoBehaviour
         //print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
         animator.SetTrigger("Hit");
-        
-        foreach(Collider2D target in targets)
+
+        if (targets.Length == 0) audioSource.PlayOneShot(missSound);
+
+        else audioSource.PlayOneShot(hitSound);
+
+        foreach (Collider2D target in targets)
         {
 
             if (target.gameObject == otherPlayer)
             {
+                
                 target.GetComponent<playerController>().TriggerStun();
             }
             else
             {
-                //print("mouche");
                 if (isOnMenu==true)
-                {
+                {                  
                     target.GetComponent<MoovButton>().LoadSceneOnSwitch();
                 }
                 else
-                {
+                {                 
                     target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
                 }
                     
@@ -110,6 +121,7 @@ public class playerController : MonoBehaviour
     {
         if (!isStunned)
         {
+            audioSource.PlayOneShot(enemyPlayerHitSound);
             OnStun.Invoke();
             CameraManager.Instance.ShakeLight();
             StartCoroutine(Stun());         
