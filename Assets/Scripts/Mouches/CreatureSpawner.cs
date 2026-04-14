@@ -12,17 +12,18 @@ public class CreatureSpawner : MonoBehaviour
 
     [Header("Spawned Entities")]
     public GameObject baseMoush;
-    public MoushSpawnData[] spawnList;
+    public TargetableData[] spawnList;
 
     [Header("Spawner Parameters")]
     public float spawnerBaseCooldown;
-    private float moushSpawnCooldown = 1f;
     public int maxSpawnedEntities;
-    private float lastAttackTime;
     public bool isGameEnded;
+
     private int totalWeight;
     private GameObject instantiatedFly;
     private Coroutine spawnCoroutine;
+    private float lastAttackTime;
+    private float moushSpawnCooldown = 1f;
 
     public List<GameObject> activeFlyList = new List<GameObject>();
 
@@ -37,19 +38,19 @@ public class CreatureSpawner : MonoBehaviour
     private void SetSpawnWeights()
     {
         totalWeight = 0;
-        foreach (MoushSpawnData moush in spawnList)
+        foreach (TargetableData moush in spawnList)
         {
-            totalWeight += moush.moushSpawnWeight;
-            moush.combinedWeight = totalWeight;
+            totalWeight += moush.spawnerData.moushSpawnWeight;
+            moush.spawnerData.combinedWeight = totalWeight;
         }
     }
     private GameObject GetRandomMoush(ref float cooldown)
     {
         int random = Random.Range(0, totalWeight);
-        foreach(MoushSpawnData moush in spawnList)
+        foreach(TargetableData moush in spawnList)
         {
             
-            if (random < moush.combinedWeight) return moush.moushPrefab;
+            if (random < moush.spawnerData.combinedWeight) return moush.spawnerData.moushPrefab;
         }
 
         return baseMoush;

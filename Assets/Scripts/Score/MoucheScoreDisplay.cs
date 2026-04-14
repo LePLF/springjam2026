@@ -9,15 +9,17 @@ public class MoucheScoreDisplay : MonoBehaviour
 {
     public ScoreManager scoreManager;
 
-    public float displaySpeed;
+    public AnimationCurve displayDelayCurve;
+
+
     public float timeToDisplayWinner = 5;
     private bool isScoreDisplaying;
 
     private List<GameObject> player1Kills = new List<GameObject>();
     private List<GameObject> player2Kills = new List<GameObject>();
 
-    public List<int> player1KillValues = new List<int>();
-    public List<int> player2KillValues = new List<int>();
+    private List<int> player1KillValues = new List<int>();
+    private List<int> player2KillValues = new List<int>();
 
     public static int p1ScoreDisplay;
     public static int p2ScoreDisplay;
@@ -41,6 +43,7 @@ public class MoucheScoreDisplay : MonoBehaviour
         isGameOver = false;
     }
 
+
     public void FindPlayerScore()
     {
         player1Kills = scoreManager.player1Kills;
@@ -50,6 +53,7 @@ public class MoucheScoreDisplay : MonoBehaviour
         if (isGameOver) return;
         StartScoreCounting();
         isGameOver = true;
+
     }
 
     public void StartScoreCounting()
@@ -62,62 +66,41 @@ public class MoucheScoreDisplay : MonoBehaviour
     private IEnumerator SpawnLoop()
     {
         yield return new WaitForSeconds(5);
+
+        int maxKills = Mathf.Max(player1Kills.Count, player2Kills.Count);
+
         while (isScoreDisplaying)
         {
-            if (player1Kills.Count != 0)
-            {
-                if (p1 != player1Kills.Count)
-                {
-                    Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
+            float progress = (float)p1 / maxKills;
+            float displayDelay = displayDelayCurve.Evaluate(progress);
 
-                    p1ScoreDisplay += player1KillValues[p1];
-                }
+            if (player1Kills.Count != 0 && p1 < player1Kills.Count)
+            {
+                Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
+                p1ScoreDisplay += player1KillValues[p1];
             }
-            
-            yield return new WaitForSeconds(displaySpeed);
 
-            if (player2Kills.Count != 0)
+            if (player2Kills.Count != 0 && p2 < player2Kills.Count)
             {
-                if (p2 != player2Kills.Count)
-                {
-                    Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
-
-                    p2ScoreDisplay += player2KillValues[p2];
-                }
-            }            
+                Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
+                p2ScoreDisplay += player2KillValues[p2];
+            }
 
             p1++;
             p2++;
 
-            if (p1 == player1Kills.Count || p2 == player2Kills.Count)
+            yield return new WaitForSeconds(displayDelay);
+
+            if (p1 >= maxKills)
             {
                 yield return new WaitForSeconds(timeToDisplayWinner);
-                
-                if(p1ScoreDisplay > p2ScoreDisplay)
-                {
-                    onPlayer1Win.Invoke();
-                }
-                else if (p1ScoreDisplay < p2ScoreDisplay)
-                {
-                    onPlayer2Win.Invoke();
-                }
-                else
-                {
-                    onDraw.Invoke();
-                }
 
-                p1 = 0;
-                p2 = 0;
-                isScoreDisplaying = true;
+                if (p1ScoreDisplay > p2ScoreDisplay) onPlayer1Win.Invoke();
+                else if (p1ScoreDisplay < p2ScoreDisplay) onPlayer2Win.Invoke();
+                else onDraw.Invoke();
+
                 break;
             }
         }
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {   
-        
     }
 }

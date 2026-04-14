@@ -68,9 +68,9 @@ public class playerController : MonoBehaviour
     {
         if (isStunned) return;
         if (!CooldownCheck(attackCooldown)) return;
-        print(playerIndex);
+        //print(playerIndex);
         onAttackMiss.Invoke();
-        print("is Attacking");
+        //print("is Attacking");
         Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
         animator.SetTrigger("Hit");
         
@@ -83,7 +83,7 @@ public class playerController : MonoBehaviour
             }
             else
             {
-                print("mouche");
+                //print("mouche");
                 if (isOnMenu==true)
                 {
                     target.GetComponent<MoovButton>().LoadSceneOnSwitch();

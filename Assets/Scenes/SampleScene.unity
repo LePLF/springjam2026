@@ -305,11 +305,11 @@ MonoBehaviour:
   scoreManager: {fileID: 1804405720}
   baseMoush: {fileID: 1674218296236322627, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
   spawnList:
-  - {fileID: 11400000, guid: c7b633a3a3c5f414c8680da6cb5615c6, type: 2}
-  - {fileID: 11400000, guid: 7c8817df1ead2fa42be34dbbb36c089a, type: 2}
-  - {fileID: 11400000, guid: 37765528a18a73a4e93e24611da67a8a, type: 2}
-  - {fileID: 11400000, guid: 539f5d8e7ad69d44c8c5d94ec9f1fcbc, type: 2}
-  - {fileID: 11400000, guid: 29f6ee2ca1711d24cb007281ad9b8c84, type: 2}
+  - {fileID: 11400000, guid: 653f2be20334749409fecf032db74f39, type: 2}
+  - {fileID: 11400000, guid: d2447b452f54b4c4fa2f8a7fd98e602a, type: 2}
+  - {fileID: 11400000, guid: dcdeb6a75c3836b4bb3bf74da6f2d868, type: 2}
+  - {fileID: 11400000, guid: 99da93890dce4e74f834afc5fe037e09, type: 2}
+  - {fileID: 11400000, guid: 7dfe06d233182b34eb1ae22df804ad76, type: 2}
   spawnerBaseCooldown: 2
   maxSpawnedEntities: 6
   isGameEnded: 0
@@ -2369,7 +2369,7 @@ Transform:
   m_GameObject: {fileID: 1558328944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.09735, y: -2.88564, z: 0}
+  m_LocalPosition: {x: 7.09735, y: -2.88564, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2403,6 +2403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1621745642}
+  - component: {fileID: 1621745643}
   m_Layer: 0
   m_Name: DeathSpawnP1
   m_TagString: Untagged
@@ -2425,6 +2426,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1621745643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621745641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78aeec82f59cdf14b9c467a62dd9b91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pathPointIndicator
+  indicatorSize: 0.5
+  gizmoColor: {r: 1, g: 0, b: 0.09560871, a: 1}
 --- !u!1 &1713785757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,7 +2548,7 @@ Transform:
   m_GameObject: {fileID: 1713785757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.32, y: -1.61, z: 0}
+  m_LocalPosition: {x: 7.3199997, y: -1.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2933,6 +2948,7 @@ MonoBehaviour:
       m_Calls: []
   player1Score: 0
   player2Score: 0
+  timerToEndGame: 3
   onGameLost:
     m_PersistentCalls:
       m_Calls: []
@@ -3044,10 +3060,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoucheScoreDisplay
   scoreManager: {fileID: 1804405721}
-  displaySpeed: 1
-  timeToDisplayWinner: 0
-  player1KillValues: 
-  player2KillValues: 
+  displayDelayCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0
+      value: 2.0015655
+      inSlope: -0.02798514
+      outSlope: -0.02798514
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.39397013
+    - serializedVersion: 3
+      time: 1
+      value: 0.0021531372
+      inSlope: -5.925775
+      outSlope: -5.925775
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08011639
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  timeToDisplayWinner: 2
   p1ScoreSpawnPoint: {fileID: 1621745642}
   p2ScoreSpawnPoint: {fileID: 1919528102}
   spawnRadius: 0
@@ -3105,6 +3142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1919528102}
+  - component: {fileID: 1919528103}
   m_Layer: 0
   m_Name: DeathSpawnP2
   m_TagString: Untagged
@@ -3127,6 +3165,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919528103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919528101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78aeec82f59cdf14b9c467a62dd9b91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pathPointIndicator
+  indicatorSize: 0.5
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &1934926556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,7 +3287,7 @@ Transform:
   m_GameObject: {fileID: 1934926556}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.66, y: 1.84, z: 0}
+  m_LocalPosition: {x: -8.16, y: 1.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

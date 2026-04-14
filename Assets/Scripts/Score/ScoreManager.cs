@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,14 +21,13 @@ public class ScoreManager : MonoBehaviour
     public UnityEvent onPlayerLoseScore;
     public int player1Score;
     public int player2Score;
-
     [NonSerialized] public List<GameObject> player1Kills = new List<GameObject>();
-    [NonSerialized] public List<GameObject> player2Kills = new List<GameObject>();
-
     [NonSerialized] public List<int> player1KillValues = new List<int>();
+    [NonSerialized] public List<GameObject> player2Kills = new List<GameObject>();
     [NonSerialized] public List<int> player2KillValues = new List<int>();
 
     [Header("Game State")]
+    public float timerToEndGame = 3;
     public UnityEvent onGameLost;
     public UnityEvent onGameEnd;
 
@@ -85,26 +85,34 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    private IEnumerator WinCinematic()
+    {
+        yield return new WaitForSeconds(timerToEndGame);
+        onGameEnd.Invoke();
+        mooveCameraEnd.MoveToB();
+        yield break;
+    }
+
+
+
     public void AddEnemyToPlayerScoreArray(int playerIndex, TargetableData scoreMouche, int scoreValue)
     {
         if (playerIndex > 0)
         {
-            player2Kills.Add(scoreMouche.scoreMouche);
-            player2KillValues.Add(scoreMouche.scoreValue);
+            player2Kills.Add(scoreMouche.moucheData.scoreMouche);
+            player2KillValues.Add(scoreMouche.moucheData.scoreValue);
         }
         else
         {
-            player1Kills.Add(scoreMouche.scoreMouche);
-            player1KillValues.Add(scoreMouche.scoreValue);
+            player1Kills.Add(scoreMouche.moucheData.scoreMouche);
+            player1KillValues.Add(scoreMouche.moucheData.scoreValue);
         }
     }
 
     void EndGame()
     {
         print("game end");
-        onGameEnd.Invoke();
-        mooveCameraEnd.MoveToB();
-        
+        StartCoroutine(WinCinematic());     
     }
 
     void GameLost()

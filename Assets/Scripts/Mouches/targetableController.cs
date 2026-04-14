@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Events;
 
 public class targetableController : MonoBehaviour
@@ -17,6 +19,9 @@ public class targetableController : MonoBehaviour
     public GameObject scoreManager;
     private ScoreManager score;
 
+    [NonSerialized]
+    public AudioSource audioSource;
+
     private void Awake()
     {
         GetComponentInChildren<TargetableHealthManager>().creatureData = CreatureData;
@@ -24,10 +29,11 @@ public class targetableController : MonoBehaviour
 
     void Start()
     {
-        moveSpeed = CreatureData.moveSpeed;
-        bloomValue = CreatureData.bloomValue;
+        moveSpeed = CreatureData.moucheData.moveSpeed;
+        bloomValue = CreatureData.moucheData.bloomValue;
         points = PathManager.GetComponent<PointsList>();
         score = scoreManager.GetComponent<ScoreManager>();
+        audioSource = GetComponent<AudioSource>();
 
         StartCoroutine(FollowPath());
     }
@@ -68,5 +74,9 @@ public class targetableController : MonoBehaviour
         score.ApplyBloom(bloomValue);
         Destroy(gameObject);
     }
+
+    public EffectType EffectType;
+
+    
 
 }

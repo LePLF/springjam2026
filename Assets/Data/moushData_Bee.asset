@@ -12,10 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd63a0eeddbd22a40aa019c04a4a9fb9, type: 3}
   m_Name: moushData_Bee
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
-  maxHealth: 1
-  moveSpeed: 2
-  JitterSpeed: 0
-  scoreValue: -50
-  bloomValue: 5
-  scoreMouche: {fileID: 76396244076500921, guid: c80ccf1f8f07e10409e32dd979597206, type: 3}
-  onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
+  moucheData:
+    maxHealth: 1
+    moveSpeed: 3
+    JitterSpeed: 4
+    scoreValue: -110
+    bloomValue: 5
+    scoreMouche: {fileID: 76396244076500921, guid: c80ccf1f8f07e10409e32dd979597206, type: 3}
+    onDeathEffect: {fileID: 0}
+    onHurtEffect: {fileID: 0}
+    deathSound:
+      sound: {fileID: 8300000, guid: 2794fe7687ff13e49aff622f34ff8c6c, type: 3}
+      soundVolume: 1
+      minPitch: 0.9
+      maxPitch: 1.1
+    hurtSound:
+      sound: {fileID: 0}
+      soundVolume: 0
+      minPitch: 0
+      maxPitch: 0
+  spawnerData:
+    moushPrefab: {fileID: 5828877616727525518, guid: a7274935bdeedfe4b983d26c37227926, type: 3}
+    moushSpawnWeight: 20
+    cooldown: 1
