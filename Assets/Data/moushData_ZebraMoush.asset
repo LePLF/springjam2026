@@ -12,10 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd63a0eeddbd22a40aa019c04a4a9fb9, type: 3}
   m_Name: moushData_ZebraMoush
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
-  maxHealth: 1
-  moveSpeed: 4
-  JitterSpeed: 6
-  scoreValue: 30
-  bloomValue: -10
-  scoreMouche: {fileID: 76396244076500921, guid: 1cda29739f7db1a4a9047337fdfbcef9, type: 3}
-  onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
+  moucheData:
+    maxHealth: 1
+    moveSpeed: 3
+    JitterSpeed: 0
+    scoreValue: 5
+    bloomValue: -10
+    scoreMouche: {fileID: 76396244076500921, guid: c80ccf1f8f07e10409e32dd979597206, type: 3}
+    onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
+    onHurtEffect: {fileID: 0}
+    deathSound:
+      sound: {fileID: 8300000, guid: 2794fe7687ff13e49aff622f34ff8c6c, type: 3}
+      soundVolume: 1
+      minPitch: 0.9
+      maxPitch: 1.1
+    hurtSound:
+      sound: {fileID: 0}
+      soundVolume: 0
+      minPitch: 0
+      maxPitch: 0
+  spawnerData:
+    moushPrefab: {fileID: 5334677949605878692, guid: 9e970d8aadcc4c14da554ae12be78426, type: 3}
+    moushSpawnWeight: 1
+    cooldown: 1

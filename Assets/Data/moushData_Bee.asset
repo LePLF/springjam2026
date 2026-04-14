@@ -15,11 +15,11 @@ MonoBehaviour:
   moucheData:
     maxHealth: 1
     moveSpeed: 3
-    JitterSpeed: 4
-    scoreValue: -110
-    bloomValue: 5
+    JitterSpeed: 0
+    scoreValue: -50
+    bloomValue: 20
     scoreMouche: {fileID: 76396244076500921, guid: c80ccf1f8f07e10409e32dd979597206, type: 3}
-    onDeathEffect: {fileID: 0}
+    onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
     onHurtEffect: {fileID: 0}
     deathSound:
       sound: {fileID: 8300000, guid: 2794fe7687ff13e49aff622f34ff8c6c, type: 3}
@@ -33,5 +33,5 @@ MonoBehaviour:
       maxPitch: 0
   spawnerData:
     moushPrefab: {fileID: 5828877616727525518, guid: a7274935bdeedfe4b983d26c37227926, type: 3}
-    moushSpawnWeight: 20
+    moushSpawnWeight: 3
     cooldown: 1

@@ -307,9 +307,9 @@ MonoBehaviour:
   spawnList:
   - {fileID: 11400000, guid: 653f2be20334749409fecf032db74f39, type: 2}
   - {fileID: 11400000, guid: d2447b452f54b4c4fa2f8a7fd98e602a, type: 2}
-  - {fileID: 11400000, guid: dcdeb6a75c3836b4bb3bf74da6f2d868, type: 2}
-  - {fileID: 11400000, guid: 99da93890dce4e74f834afc5fe037e09, type: 2}
-  - {fileID: 11400000, guid: 7dfe06d233182b34eb1ae22df804ad76, type: 2}
+  - {fileID: 11400000, guid: 962934c9d4c334944be956fa95d39f90, type: 2}
+  - {fileID: 11400000, guid: 5b91a3d3f7f60a645b5d6c9407c4142d, type: 2}
+  - {fileID: 11400000, guid: b6167f030df138d43837a8fcdfa5bf89, type: 2}
   spawnerBaseCooldown: 2
   maxSpawnedEntities: 6
   isGameEnded: 0
@@ -1240,6 +1240,7 @@ GameObject:
   - component: {fileID: 1018368335}
   - component: {fileID: 1018368337}
   - component: {fileID: 1018368336}
+  - component: {fileID: 1018368338}
   m_Layer: 0
   m_Name: ScoreP1
   m_TagString: Untagged
@@ -1263,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.58, y: 1.61}
+  m_AnchoredPosition: {x: 6.08, y: 1.1099997}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018368336
@@ -1320,7 +1321,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1410,6 +1411,72 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1018368338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018368334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c14c40b95b5e39469b00a7a0b1fddbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScorePunch
+  punchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: Infinity
+      outSlope: 3.318328
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29988176
+      value: 0.995106
+      inSlope: 3.318328
+      outSlope: 0.65595335
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.50009346
+      value: 1.1264355
+      inSlope: 0.65595335
+      outSlope: -0.8508416
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.69972116
+      value: 0.956584
+      inSlope: -0.8508416
+      outSlope: 0.4993792
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.79986256
+      value: 1.0065925
+      inSlope: 0.4993792
+      outSlope: 0
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  punchScale: 1.3
+  punchDuration: 0.3
+  maxRotation: 5
 --- !u!1 &1167182724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,6 +1667,7 @@ GameObject:
   - component: {fileID: 1248870585}
   - component: {fileID: 1248870584}
   - component: {fileID: 1248870583}
+  - component: {fileID: 1248870586}
   m_Layer: 0
   m_Name: ScoreP2
   m_TagString: Untagged
@@ -1661,7 +1729,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1767,9 +1835,75 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.09, y: 1.61}
+  m_AnchoredPosition: {x: 10.09, y: 1.1099997}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1248870586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248870582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c14c40b95b5e39469b00a7a0b1fddbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScorePunch
+  punchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: Infinity
+      outSlope: 3.318328
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29988176
+      value: 0.995106
+      inSlope: 3.318328
+      outSlope: 0.65595335
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.50009346
+      value: 1.1264355
+      inSlope: 0.65595335
+      outSlope: -0.8508416
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.69972116
+      value: 0.956584
+      inSlope: -0.8508416
+      outSlope: 0.4993792
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.79986256
+      value: 1.0065925
+      inSlope: 0.4993792
+      outSlope: 0
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  punchScale: 1.3
+  punchDuration: 0.3
+  maxRotation: 5
 --- !u!1 &1279906313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,7 +2554,7 @@ Transform:
   m_GameObject: {fileID: 1621745641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.84, y: -10.61, z: 0}
+  m_LocalPosition: {x: -5.16, y: -10.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3018,6 +3152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822192449}
   - component: {fileID: 1822192451}
+  - component: {fileID: 1822192452}
   m_Layer: 0
   m_Name: GameEnd
   m_TagString: Untagged
@@ -3064,30 +3199,62 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0
-      value: 2.0015655
-      inSlope: -0.02798514
-      outSlope: -0.02798514
+      time: 0
+      value: 1.00036
+      inSlope: -0.22717632
+      outSlope: -0.22717632
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.39397013
+      outWeight: 0.08290815
     - serializedVersion: 3
       time: 1
       value: 0.0021531372
-      inSlope: -5.925775
-      outSlope: -5.925775
+      inSlope: -2.5437052
+      outSlope: -2.5437052
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.08011639
+      inWeight: 0.043367445
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   timeToDisplayWinner: 2
+  maxScoreDisplaySpeed: 20
+  onDisplaySound: {fileID: 8300000, guid: b39805221c9924c458dd0c5ccce39782, type: 3}
   p1ScoreSpawnPoint: {fileID: 1621745642}
   p2ScoreSpawnPoint: {fileID: 1919528102}
-  spawnRadius: 0
+  spawnRadius: 1
+  onP1ScoreTickUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1018368338}
+        m_TargetAssemblyTypeName: ScorePunch, Assembly-CSharp
+        m_MethodName: Punch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onP2ScoreTickUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1248870586}
+        m_TargetAssemblyTypeName: ScorePunch, Assembly-CSharp
+        m_MethodName: Punch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onPlayer1Win:
     m_PersistentCalls:
       m_Calls:
@@ -3133,6 +3300,103 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!82 &1822192452
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822192448}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1919528101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3159,7 +3423,7 @@ Transform:
   m_GameObject: {fileID: 1919528101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.32, y: -10.61, z: 0}
+  m_LocalPosition: {x: 7.18, y: -11.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

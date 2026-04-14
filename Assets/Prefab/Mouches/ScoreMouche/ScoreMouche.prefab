@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6906604787447143030}
   - component: {fileID: 3769903329505572471}
   - component: {fileID: 908662814959656497}
+  - component: {fileID: 6967561694418213632}
   m_Layer: 8
   m_Name: ScoreMouche
   m_TagString: Untagged
@@ -107,6 +108,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.55, y: 0.3}
   m_EdgeRadius: 0
+--- !u!114 &6967561694418213632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674218296236322627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe476b77dda6224985d470b32273fdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ImpulseOnSpawn
+  minUpwardForce: 3
+  maxUpwardForce: 6
+  maxAngleForce: 3
 --- !u!1 &8661261221314871659
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +134,7 @@ GameObject:
   - component: {fileID: 9036926086552252716}
   - component: {fileID: 666261977915455655}
   - component: {fileID: 6689658933170896580}
+  - component: {fileID: 226482064223321499}
   m_Layer: 8
   m_Name: EntityCollision
   m_TagString: Untagged
@@ -245,3 +262,49 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &226482064223321499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8661261221314871659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396fbf044ffa8ed4b842086e4bda5401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.86392915
+      outSlope: 0.86392915
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.25225925
+    - serializedVersion: 3
+      time: 0.5
+      value: 1.2020669
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1.0000219
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  popDuration: 0.4

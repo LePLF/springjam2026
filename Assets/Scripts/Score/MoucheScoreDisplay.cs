@@ -9,11 +9,14 @@ public class MoucheScoreDisplay : MonoBehaviour
 {
     public ScoreManager scoreManager;
 
+
+    [Header("Display Parameters")]
     public AnimationCurve displayDelayCurve;
-
-
     public float timeToDisplayWinner = 5;
+    public int maxScoreDisplaySpeed = 20;
+    public AudioClip onDisplaySound;
     private bool isScoreDisplaying;
+    private AudioSource onDisplaySoundPlayer;
 
     private List<GameObject> player1Kills = new List<GameObject>();
     private List<GameObject> player2Kills = new List<GameObject>();
@@ -31,7 +34,13 @@ public class MoucheScoreDisplay : MonoBehaviour
     [Header("MoucheDisplay Spawnpoint")]
     public Transform p1ScoreSpawnPoint;
     public Transform p2ScoreSpawnPoint;
-    public float spawnRadius;
+    public float spawnRadius = 1f;
+
+
+    [Header("ScoreTickUpEvent")]
+    public UnityEvent onP1ScoreTickUp;
+    public UnityEvent onP2ScoreTickUp;
+
 
     [Header("WinnerEvents")]
     public UnityEvent onPlayer1Win;
@@ -40,6 +49,8 @@ public class MoucheScoreDisplay : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        onDisplaySoundPlayer = gameObject.GetComponent<AudioSource>();
+        onDisplaySoundPlayer.pitch = Random.Range(0.9f, 1.1f);
         isGameOver = false;
     }
 
@@ -62,6 +73,11 @@ public class MoucheScoreDisplay : MonoBehaviour
         StartCoroutine(SpawnLoop());
     }
 
+    private Vector3 GetRandomSpawnOffset(Transform spawnPoint)
+    {
+        Vector2 randomOffset = Random.insideUnitCircle * spawnRadius;
+        return spawnPoint.position + (Vector3)randomOffset;
+    }
 
     private IEnumerator SpawnLoop()
     {
@@ -71,19 +87,22 @@ public class MoucheScoreDisplay : MonoBehaviour
 
         while (isScoreDisplaying)
         {
-            float progress = (float)p1 / maxKills;
+            float progress = (float)p1 / maxScoreDisplaySpeed;
             float displayDelay = displayDelayCurve.Evaluate(progress);
 
             if (player1Kills.Count != 0 && p1 < player1Kills.Count)
             {
-                Instantiate(player1Kills[p1], p1ScoreSpawnPoint);
+                Instantiate(player1Kills[p1], GetRandomSpawnOffset(p1ScoreSpawnPoint), Quaternion.identity);
                 p1ScoreDisplay += player1KillValues[p1];
+                onP1ScoreTickUp.Invoke();
+                onDisplaySoundPlayer.PlayOneShot(onDisplaySound);
             }
 
             if (player2Kills.Count != 0 && p2 < player2Kills.Count)
             {
                 Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
                 p2ScoreDisplay += player2KillValues[p2];
+                onP2ScoreTickUp.Invoke();
             }
 
             p1++;

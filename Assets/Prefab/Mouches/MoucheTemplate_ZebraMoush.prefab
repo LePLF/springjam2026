@@ -111,7 +111,7 @@ PrefabInstance:
     - target: {fileID: 7539831138135456792, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: CreatureData
       value: 
-      objectReference: {fileID: 11400000, guid: 7dfe06d233182b34eb1ae22df804ad76, type: 2}
+      objectReference: {fileID: 11400000, guid: b6167f030df138d43837a8fcdfa5bf89, type: 2}
     - target: {fileID: 7539831138135456792, guid: 8db3242849cc02e49af8b23bf8296a12, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
       value: 1

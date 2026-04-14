@@ -10,28 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd63a0eeddbd22a40aa019c04a4a9fb9, type: 3}
-  m_Name: moushData_MexicanMoussh
+  m_Name: moushData_MexicanMoush
   m_EditorClassIdentifier: Assembly-CSharp::TargetableData
   moucheData:
-    maxHealth: 0
-    moveSpeed: 0
-    JitterSpeed: 0
-    scoreValue: 0
-    bloomValue: 0
-    scoreMouche: {fileID: 0}
-    onDeathEffect: {fileID: 0}
+    maxHealth: 1
+    moveSpeed: 2
+    JitterSpeed: 4
+    scoreValue: 5
+    bloomValue: -10
+    scoreMouche: {fileID: 76396244076500921, guid: cbf8c97adaa1ee241a614a35a490f390, type: 3}
+    onDeathEffect: {fileID: 8325730111818021630, guid: 80332e5fd78ca7742908c259494213d4, type: 3}
     onHurtEffect: {fileID: 0}
     deathSound:
-      sound: {fileID: 0}
-      soundVolume: 0
-      minPitch: 0
-      maxPitch: 0
+      sound: {fileID: 8300000, guid: 2794fe7687ff13e49aff622f34ff8c6c, type: 3}
+      soundVolume: 1
+      minPitch: 0.9
+      maxPitch: 1.1
     hurtSound:
       sound: {fileID: 0}
       soundVolume: 0
       minPitch: 0
       maxPitch: 0
   spawnerData:
-    moushPrefab: {fileID: 0}
+    moushPrefab: {fileID: 5334677949605878692, guid: 1fb8b8f99cadcdf4286e1ab41a063e0b, type: 3}
     moushSpawnWeight: 1
     cooldown: 1
