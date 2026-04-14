@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 6906604787447143030}
   - component: {fileID: 7539831138135456792}
   - component: {fileID: -6835078948623569296}
+  - component: {fileID: -833702104588806222}
   m_Layer: 8
   m_Name: MoucheTemplate
   m_TagString: Untagged
@@ -126,8 +127,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_Resource: {fileID: 8300000, guid: dead9f88487766742ada1e21aa8f3090, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -212,6 +213,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-833702104588806222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674218296236322627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77031a692bb1be544929c8ce1466dbc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomPitch
+  pitchMin: 0.7
+  pitchMax: 1.3
+  volumeMin: 0.5
+  volumeMax: 0.8
 --- !u!1 &3581650693534886754
 GameObject:
   m_ObjectHideFlags: 0
