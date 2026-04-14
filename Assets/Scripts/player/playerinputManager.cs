@@ -4,19 +4,28 @@ using UnityEngine.Events;
 
 public class playerinputManager : MonoBehaviour
 {
+    [Header("Movement Values")]
     public static Vector2 p1Movement;
     public static Vector2 p2Movement;
+    public static InputAction p1MoveAction;
+    public static InputAction p2MoveAction;
 
+    [Header("Attack")]
     public UnityEvent player1Attack;
     public UnityEvent player2Attack;
 
     private PlayerInput playerInput;
 
-    public static InputAction p1MoveAction;
-    public static InputAction p2MoveAction;
-
     private InputAction p1AttackAction;
     private InputAction p2AttackAction;
+
+    [Header("Parry")]
+    public UnityEvent player1Parry;
+    public UnityEvent player2Parry;
+
+
+    private InputAction p1ParryAction;
+    private InputAction p2ParryAction;
 
 
     private void Awake()
@@ -27,6 +36,10 @@ public class playerinputManager : MonoBehaviour
 
         p1AttackAction = playerInput.actions["Player1Attack"];  
         p2AttackAction = playerInput.actions["Player2Attack"];
+
+        p1ParryAction = playerInput.actions["Player1Parry"];
+        p2ParryAction = playerInput.actions["Player2Parry"];
+
 
 
 

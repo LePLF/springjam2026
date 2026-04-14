@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
@@ -30,6 +31,15 @@ public class playerController : MonoBehaviour
     [SerializeField]private float stunDuration;
     private bool isStunned;
 
+
+    [Header("Parry")]
+    public float parryCooldown;
+    public float parryDuration;
+    [NonSerialized] public bool isParrying;
+    private float lastParryTime;
+    public AudioClip parryHitSound;
+
+
     private AudioSource audioSource;
 
     public GameObject scoreManager;
@@ -59,8 +69,7 @@ public class playerController : MonoBehaviour
         if (isOnMenu == true ) return;
         score = scoreManager.GetComponent<ScoreManager>();
         audioSource = GetComponent<AudioSource>();
-        audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
-        
+        audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);        
     }
 
     void Start()
@@ -74,7 +83,7 @@ public class playerController : MonoBehaviour
     public void StartAttack()
     {
         if (isStunned) return;
-        if (!CooldownCheck(attackCooldown)) return;
+        if (!CooldownCheck(attackCooldown, lastAttackTime)) return;
         //print(playerIndex);
         onAttackMiss.Invoke();
         //print("is Attacking");
@@ -90,7 +99,11 @@ public class playerController : MonoBehaviour
 
             if (target.gameObject == otherPlayer)
             {
-                
+                if (target.GetComponent<playerController>().isParrying == true)
+                {
+                    TriggerStun();
+                    return;
+                }
                 target.GetComponent<playerController>().TriggerStun();
             }
             else
@@ -130,10 +143,36 @@ public class playerController : MonoBehaviour
         
     }
 
-
-    public bool CooldownCheck(float cooldown)
+    public void Parry()
     {
-        return Time.time >= lastAttackTime + cooldown;
+        if (isStunned) return;
+        if (isParrying) return;
+        if (!CooldownCheck(parryCooldown, lastParryTime))
+        {
+            StartCoroutine(TriggerParry());
+        }
+    }
+
+    public IEnumerator TriggerParry()
+    {
+        isParrying = true;
+        yield return new WaitForSeconds(parryDuration);
+        isParrying = false;
+
+        yield break;
+    }
+
+
+
+
+    public bool CooldownCheck(float cooldown, float lastActionTime)
+    {
+        if (Time.time >= lastActionTime + cooldown)
+        {
+            lastActionTime = Time.time;
+            return true;
+        }
+        return false;
     }
 
 

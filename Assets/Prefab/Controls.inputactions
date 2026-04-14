@@ -41,6 +41,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Player1Parry",
+                    "type": "Button",
+                    "id": "56a9006c-da3d-43ab-b60c-1ca31bf6ad9f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Player2Parry",
+                    "type": "Button",
+                    "id": "3e9d5772-14ae-4f35-8c3a-1729327a9212",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -217,6 +235,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Player1Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b24c4f11-2ccc-4719-b776-91a487bfeca1",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Parry",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cabdd175-855b-4cc3-8c4a-4563e37ce315",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player2Parry",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
