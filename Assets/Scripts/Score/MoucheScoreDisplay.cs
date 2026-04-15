@@ -9,7 +9,6 @@ public class MoucheScoreDisplay : MonoBehaviour
 {
     public ScoreManager scoreManager;
 
-
     [Header("Display Parameters")]
     public AnimationCurve displayDelayCurve;
     public float timeToDisplayWinner = 5;
@@ -95,6 +94,8 @@ public class MoucheScoreDisplay : MonoBehaviour
                 Instantiate(player1Kills[p1], GetRandomSpawnOffset(p1ScoreSpawnPoint), Quaternion.identity);
                 p1ScoreDisplay += player1KillValues[p1];
                 onP1ScoreTickUp.Invoke();
+
+                onDisplaySoundPlayer.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
                 onDisplaySoundPlayer.PlayOneShot(onDisplaySound);
             }
 
@@ -103,6 +104,9 @@ public class MoucheScoreDisplay : MonoBehaviour
                 Instantiate(player2Kills[p2], p2ScoreSpawnPoint);
                 p2ScoreDisplay += player2KillValues[p2];
                 onP2ScoreTickUp.Invoke();
+
+                onDisplaySoundPlayer.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
+                onDisplaySoundPlayer.PlayOneShot(onDisplaySound);
             }
 
             p1++;

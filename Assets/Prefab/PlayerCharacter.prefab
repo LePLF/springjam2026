@@ -162,15 +162,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc474edca8200db47baf1bc8ef95e35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playerController
+  scoreManager: {fileID: 0}
+  score: {fileID: 0}
   moveSpeed: 10
-  isPlayer2: 0
+  isOnMenu: 0
+  minBounds: {x: 0, y: 0}
+  maxBounds: {x: 0, y: 0}
   playerIndex: 0
+  isPlayer2: 0
   otherPlayer: {fileID: 0}
   damageValue: 1
+  attackCooldown: 1
+  boxSize: {x: 1, y: 1.5}
+  boxPositionOffset: {x: 0, y: 0.8}
   attackLayerMask:
     serializedVersion: 2
     m_Bits: 384
-  boxSize: {x: 1, y: 2}
+  missSound: {fileID: 8300000, guid: 476f7a3219ecc9e44b0d054d2c890576, type: 3}
+  hitSound: {fileID: 8300000, guid: 27e8edc39f5c23045a4ef744157ccc8c, type: 3}
+  enemyPlayerHitSound: {fileID: 8300000, guid: 8708a0dcdfb72914fb7c177011220280, type: 3}
+  stunDuration: 1
+  fixedBoxPosition: {x: 0, y: 0.6, z: 0}
   onAttackMiss:
     m_PersistentCalls:
       m_Calls:
@@ -189,15 +201,11 @@ MonoBehaviour:
   OnStun:
     m_PersistentCalls:
       m_Calls: []
-  attackCooldown: 1
-  stunDuration: 2
-  scoreManager: {fileID: 0}
-  score: {fileID: 0}
-  isOnMenu: 0
+  parryCooldown: 0
+  parryDuration: 0
+  parryHitSound: {fileID: 0}
   sprite: {fileID: 546471480421922910}
   handle: {fileID: 3488455764203441258}
-  minBounds: {x: 0, y: 0}
-  maxBounds: {x: 0, y: 0}
 --- !u!50 &6951996225712544926
 Rigidbody2D:
   serializedVersion: 5
@@ -283,8 +291,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0

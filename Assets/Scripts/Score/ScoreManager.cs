@@ -14,7 +14,8 @@ public class ScoreManager : MonoBehaviour
     public UnityEvent onGainBloom;
     public UnityEvent onLoseBloom;
     public GameObject flower;
-    private Animator animator;
+    public Animator bloomAnimator;
+    public Animator movementAnimator;
 
     [Header("Player Score")]
     public UnityEvent onPlayerGainScore;
@@ -45,13 +46,21 @@ public class ScoreManager : MonoBehaviour
         player2Score = 0;
         currentScore = 0;
         mooveCameraEnd = cameraMoover.GetComponent<MooveCameraEnd>();
-        animator = flower.GetComponent<Animator>();
     }
 
     public void ApplyBloom(int scoreValue)
     {
         currentScore += scoreValue;
-        
+        if (scoreValue < 0)
+        {
+            movementAnimator.SetTrigger("TakingDamage");
+        }
+        else
+        {
+            movementAnimator.SetTrigger("GainBloom");
+        }
+
+
         if (currentScore >= scoreToEnd)
         {
             EndGame();
@@ -123,6 +132,6 @@ public class ScoreManager : MonoBehaviour
 
     void Update()
     {
-        animator.SetInteger("Bloom", currentScore);
+        bloomAnimator.SetInteger("Bloom", currentScore);
     }
 }

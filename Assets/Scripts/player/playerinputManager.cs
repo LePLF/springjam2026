@@ -62,7 +62,18 @@ public class playerinputManager : MonoBehaviour
             player2Attack.Invoke();
         }
     }
-        
+    
+    void PlayerParry()
+    {
+        if (p1ParryAction.WasPressedThisFrame())
+        {
+            player1Parry.Invoke();
+        }
+        if (p2ParryAction.WasPressedThisFrame())
+        {
+            player2Parry.Invoke();
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -71,5 +82,6 @@ public class playerinputManager : MonoBehaviour
         p2Movement = p2MoveAction.ReadValue<Vector2>();
         
         PlayerAttack();
+        PlayerParry();
     }
 }

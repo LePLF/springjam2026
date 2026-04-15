@@ -7,30 +7,42 @@ using UnityEngine.UIElements;
 
 public class playerController : MonoBehaviour
 {
+    [Header("Refs")]
+    public GameObject scoreManager;
+    public ScoreManager score;
+    private AudioSource audioSource;
+    private Vector2 movement;
+    private Rigidbody2D rb;
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
     private float currentMoveSpeed;
+    public bool isOnMenu;
 
-    [SerializeField] private bool isPlayer2;
+    [Header("Movement Boundaries")]
+    public Vector2 minBounds;
+    public Vector2 maxBounds;
 
+    [Header("Index")]
     public int playerIndex;
+    [SerializeField] private bool isPlayer2;
     public GameObject otherPlayer;
 
     [Header("Attack")]
     public int damageValue = 1;
-    public LayerMask attackLayerMask;
+    public float attackCooldown;
+    [SerializeField] private float stunDuration;
     public Vector2 boxSize;
+    public Vector2 boxPositionOffset;
+    public LayerMask attackLayerMask;
     public AudioClip missSound;
     public AudioClip hitSound;
     public AudioClip enemyPlayerHitSound;
+    private float lastAttackTime;
+    private bool isStunned;
+    [SerializeField] private Vector3 fixedBoxPosition;
     public UnityEvent onAttackMiss;
     public UnityEvent OnStun;
-    public float attackCooldown;
-    private float lastAttackTime;
-    [SerializeField]private float stunDuration;
-    private bool isStunned;
-
 
     [Header("Parry")]
     public float parryCooldown;
@@ -39,18 +51,6 @@ public class playerController : MonoBehaviour
     private float lastParryTime;
     public AudioClip parryHitSound;
 
-
-    private AudioSource audioSource;
-
-    public GameObject scoreManager;
-    public ScoreManager score;
-    public bool isOnMenu;
-    //private MoovButtton buttonInstance;
-
-
-
-    private Vector2 movement;
-    private Rigidbody2D rb;
     
     [Header("Animators")]
     private Animator animator;
@@ -58,9 +58,6 @@ public class playerController : MonoBehaviour
     public GameObject sprite;
     public GameObject handle;
 
-    [Header("Boundaries")]
-    public Vector2 minBounds;
-    public Vector2 maxBounds;
        
 
     private void Awake()
@@ -78,6 +75,7 @@ public class playerController : MonoBehaviour
         animator = sprite.GetComponent<Animator>();
         Rotanimator = handle.GetComponent<Animator>();
         animator.SetBool("is2", isPlayer2);
+        fixedBoxPosition = transform.position + (Vector3)boxPositionOffset;
     }
 
     public void StartAttack()
@@ -87,7 +85,8 @@ public class playerController : MonoBehaviour
         //print(playerIndex);
         onAttackMiss.Invoke();
         //print("is Attacking");
-        Collider2D[] targets = Physics2D.OverlapBoxAll(transform.position, boxSize,0,attackLayerMask);
+       
+        Collider2D[] targets = Physics2D.OverlapBoxAll(fixedBoxPosition, boxSize,0,attackLayerMask);
         animator.SetTrigger("Hit");
 
         if (targets.Length == 0) audioSource.PlayOneShot(missSound);
@@ -101,6 +100,8 @@ public class playerController : MonoBehaviour
             {
                 if (target.GetComponent<playerController>().isParrying == true)
                 {
+                    audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
+                    audioSource.PlayOneShot(parryHitSound);
                     TriggerStun();
                     return;
                 }
@@ -134,13 +135,12 @@ public class playerController : MonoBehaviour
     {
         if (!isStunned)
         {
+            audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
             audioSource.PlayOneShot(enemyPlayerHitSound);
             OnStun.Invoke();
             CameraManager.Instance.ShakeLight();
             StartCoroutine(Stun());         
         }
-
-        
     }
 
     public void Parry()
@@ -162,9 +162,6 @@ public class playerController : MonoBehaviour
         yield break;
     }
 
-
-
-
     public bool CooldownCheck(float cooldown, float lastActionTime)
     {
         if (Time.time >= lastActionTime + cooldown)
@@ -174,7 +171,6 @@ public class playerController : MonoBehaviour
         }
         return false;
     }
-
 
     // Update is called once per frame
     void Update()
@@ -206,6 +202,12 @@ public class playerController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position, boxSize);
+        fixedBoxPosition = transform.position + (Vector3)boxPositionOffset;
+        Gizmos.DrawWireCube(fixedBoxPosition, boxSize);
+
+        Gizmos.color = Color.blue;
+        Vector2 center = new Vector2((minBounds.x + maxBounds.x) / 2f, (minBounds.y + maxBounds.y) / 2f);
+        Vector2 size = new Vector2(maxBounds.x - minBounds.x, maxBounds.y - minBounds.y);
+        Gizmos.DrawWireCube(center, size);
     }
 }
