@@ -19,7 +19,6 @@ public class TargetableHealthManager : MonoBehaviour
     private ParticleSystem onDeathEffect;
     private targetableController targetableController;
 
-    private float moveSpeed;
     private float jitterSpeed;
     private float currentHealth;
     private bool hasPathEnded;
@@ -47,7 +46,6 @@ public class TargetableHealthManager : MonoBehaviour
         targetableController = transform.parent.GetComponent<targetableController>();
         hasPathEnded = false;
         currentHealth = creatureData.moucheData.maxHealth;
-        moveSpeed = creatureData.moucheData.moveSpeed;
         jitterSpeed = creatureData.moucheData.JitterSpeed;
         onDeathEffect = creatureData.moucheData.onDeathEffect;
         hurtSound = creatureData.moucheData.hurtSound.sound;

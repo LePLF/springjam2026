@@ -33,5 +33,5 @@ MonoBehaviour:
       maxPitch: 0
   spawnerData:
     moushPrefab: {fileID: 5828877616727525518, guid: a7274935bdeedfe4b983d26c37227926, type: 3}
-    moushSpawnWeight: 3
+    moushSpawnWeight: 1
     cooldown: 1

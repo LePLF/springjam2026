@@ -20,8 +20,10 @@ public class playerController : MonoBehaviour
     public bool isOnMenu;
 
     [Header("Movement Boundaries")]
-    public Vector2 minBounds;
-    public Vector2 maxBounds;
+    public Vector2 boundsCenter;
+    public Vector2 boundsSize;
+    private Vector2 MinBounds => new Vector2(boundsCenter.x - boundsSize.x / 2f, boundsCenter.y - boundsSize.y / 2f);
+    private Vector2 MaxBounds => new Vector2(boundsCenter.x + boundsSize.x / 2f, boundsCenter.y + boundsSize.y / 2f);
 
     [Header("Index")]
     public int playerIndex;
@@ -50,15 +52,12 @@ public class playerController : MonoBehaviour
     [NonSerialized] public bool isParrying;
     private float lastParryTime;
     public AudioClip parryHitSound;
-
     
     [Header("Animators")]
     private Animator animator;
     private Animator Rotanimator;
     public GameObject sprite;
-    public GameObject handle;
-
-       
+    public GameObject handle;   
 
     private void Awake()
     {
@@ -116,8 +115,7 @@ public class playerController : MonoBehaviour
                 else
                 {                 
                     target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
-                }
-                    
+                }           
             }
         }
     }
@@ -172,7 +170,6 @@ public class playerController : MonoBehaviour
         return false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -193,9 +190,8 @@ public class playerController : MonoBehaviour
 
         rb.linearVelocity = movement * currentMoveSpeed;
 
-        
-
-        Vector2 clampedPos = new Vector2(Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x), Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y));
+        Vector2 clampedPos = new Vector2(Mathf.Clamp(transform.position.x, MinBounds.x, MaxBounds.x),Mathf.Clamp(transform.position.y, MinBounds.y, MaxBounds.y)
+);
         transform.position = clampedPos;
     }
 
@@ -206,8 +202,7 @@ public class playerController : MonoBehaviour
         Gizmos.DrawWireCube(fixedBoxPosition, boxSize);
 
         Gizmos.color = Color.blue;
-        Vector2 center = new Vector2((minBounds.x + maxBounds.x) / 2f, (minBounds.y + maxBounds.y) / 2f);
-        Vector2 size = new Vector2(maxBounds.x - minBounds.x, maxBounds.y - minBounds.y);
-        Gizmos.DrawWireCube(center, size);
+        Gizmos.DrawWireCube(boundsCenter, boundsSize);
+
     }
 }

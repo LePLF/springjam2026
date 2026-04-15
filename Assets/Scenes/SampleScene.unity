@@ -3856,19 +3856,19 @@ PrefabInstance:
       objectReference: {fileID: 1716964980}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: maxBounds.x
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: maxBounds.y
-      value: -4.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: minBounds.x
       value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
-      propertyPath: minBounds.y
+      propertyPath: maxBounds.y
       value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: minBounds.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: minBounds.y
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: otherPlayer

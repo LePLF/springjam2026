@@ -166,13 +166,14 @@ MonoBehaviour:
   score: {fileID: 0}
   moveSpeed: 10
   isOnMenu: 0
-  minBounds: {x: 0, y: 0}
-  maxBounds: {x: 0, y: 0}
+  boundsCenter: {x: 0, y: 0}
+  boundsSize: {x: 28, y: 8.5}
   playerIndex: 0
   isPlayer2: 0
   otherPlayer: {fileID: 0}
   damageValue: 1
   attackCooldown: 1
+  stunDuration: 1
   boxSize: {x: 1, y: 1.5}
   boxPositionOffset: {x: 0, y: 0.8}
   attackLayerMask:
@@ -181,7 +182,6 @@ MonoBehaviour:
   missSound: {fileID: 8300000, guid: 476f7a3219ecc9e44b0d054d2c890576, type: 3}
   hitSound: {fileID: 8300000, guid: 27e8edc39f5c23045a4ef744157ccc8c, type: 3}
   enemyPlayerHitSound: {fileID: 8300000, guid: 8708a0dcdfb72914fb7c177011220280, type: 3}
-  stunDuration: 1
   fixedBoxPosition: {x: 0, y: 0.6, z: 0}
   onAttackMiss:
     m_PersistentCalls:
