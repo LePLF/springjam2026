@@ -51,7 +51,7 @@ public class TargetableHealthManager : MonoBehaviour
         hurtSound = creatureData.moucheData.hurtSound.sound;
         deathSound = creatureData.moucheData.deathSound.sound;
 
-        StartCoroutine(MoveToRandomPoint());
+        //StartCoroutine(MoveToRandomPoint());
     }
 
     public void TakeDamage(float damage, int playerIndex)
@@ -87,7 +87,7 @@ public class TargetableHealthManager : MonoBehaviour
             OnTakeDamage.Invoke();
         }
     }
-    private IEnumerator MoveToRandomPoint()
+    /*private IEnumerator MoveToRandomPoint()
     {
         while (true)
         {
@@ -104,7 +104,7 @@ public class TargetableHealthManager : MonoBehaviour
                 yield break;
             }
         }
-    }
+    }*/
 
     public void ReachPathEnd()
     {

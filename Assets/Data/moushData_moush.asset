@@ -15,7 +15,8 @@ MonoBehaviour:
   moucheData:
     maxHealth: 1
     moveSpeed: 3
-    JitterSpeed: 4
+    JitterSpeed: 3
+    jitterRadius: 0.5
     scoreValue: 2
     bloomValue: -5
     scoreMouche: {fileID: 1674218296236322627, guid: 77b30139c9a6ff143baba502976dae84, type: 3}

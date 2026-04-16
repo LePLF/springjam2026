@@ -18,7 +18,8 @@ public class TargetableData : ScriptableObject
 
         [Header("Movement")]
         public float moveSpeed;
-        public int JitterSpeed;
+        public float JitterSpeed;
+        public float jitterRadius;
 
         [Header("Score")]
         public int scoreValue;
