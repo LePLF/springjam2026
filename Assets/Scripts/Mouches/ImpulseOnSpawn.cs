@@ -12,11 +12,18 @@ public class ImpulseOnSpawn : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        DoImpulse();
 
+    }
+
+    public void DoImpulse()
+    {
         float upward = Random.Range(minUpwardForce, maxUpwardForce);
         float sideways = Random.Range(-maxAngleForce, maxAngleForce);
 
         rb.AddForce(new Vector2(sideways, upward), ForceMode2D.Impulse);
         rb.angularVelocity = Random.Range(-maxAngularVelocity, maxAngularVelocity);
     }
+
+
 }

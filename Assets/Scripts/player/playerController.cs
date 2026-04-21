@@ -113,7 +113,12 @@ public class playerController : MonoBehaviour
                     target.GetComponent<MoovButton>().LoadSceneOnSwitch();
                 }
                 else
-                {                 
+                {
+                    if (target.gameObject.GetComponent<TargetableHealthManager>() == null)
+                    {
+                        target.gameObject.GetComponent<ImpulseOnSpawn>().DoImpulse();
+                    }
+                    else
                     target.gameObject.GetComponent<TargetableHealthManager>().TakeDamage(damageValue, playerIndex);
                 }           
             }

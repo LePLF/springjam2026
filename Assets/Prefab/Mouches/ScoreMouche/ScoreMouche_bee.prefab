@@ -14,24 +14,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1674218296236322627, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
       propertyPath: m_Name
-      value: ScoreMouche Variant
+      value: ScoreMouche_bee
       objectReference: {fileID: 0}
     - target: {fileID: 6689658933170896580, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -4656658513182322354, guid: 160588e6831b7374f9860bf247c6acf4, type: 3}
-    - target: {fileID: 6906604787447143030, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.649647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6906604787447143030, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.7407744
-      objectReference: {fileID: 0}
-    - target: {fileID: 6906604787447143030, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6906604787447143030, guid: 77b30139c9a6ff143baba502976dae84, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
