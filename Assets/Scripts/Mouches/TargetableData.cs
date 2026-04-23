@@ -20,6 +20,8 @@ public class TargetableData : ScriptableObject
         public float moveSpeed;
         public float JitterSpeed;
         public float jitterRadius;
+        public bool isUsingCurveForSpeed;
+        public AnimationCurve speedModifier;
 
         [Header("Score")]
         public int scoreValue;

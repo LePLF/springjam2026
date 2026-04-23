@@ -34,7 +34,11 @@ public class targetableController : MonoBehaviour
 
     void Start()
     {
+        if (CreatureData.moucheData.isUsingCurveForSpeed == false)
+        {
         moveSpeed = CreatureData.moucheData.moveSpeed;
+        }
+
         jitterSpeed = CreatureData.moucheData.JitterSpeed;
         jitterRadius = CreatureData.moucheData.jitterRadius;
         bloomValue = CreatureData.moucheData.bloomValue;
