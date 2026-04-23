@@ -102,7 +102,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_MaskInteraction: 0
   m_Sprite: {fileID: -920317729760535799, guid: d899ad870a63ba14a9ed5bcf457beab4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -168,6 +168,7 @@ MonoBehaviour:
   moveSpeed: 10
   isOnMenu: 0
   boundsCenter: {x: 0, y: 0}
+  cameraCenter: {fileID: 0}
   boundsSize: {x: 28, y: 8.5}
   playerIndex: 0
   isPlayer2: 0

@@ -2988,6 +2988,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1414955336}
     - target: {fileID: 8551340122007064389, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
+      propertyPath: cameraCenter
+      value: 
+      objectReference: {fileID: 1718647248}
+    - target: {fileID: 8551340122007064389, guid: 386a54a3db092764a9f7e7804b9ddf5b, type: 3}
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1804405720}
@@ -3875,6 +3879,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1366611846}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: cameraCenter
+      value: 
+      objectReference: {fileID: 1718647248}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1804405720}
@@ -3890,6 +3898,10 @@ PrefabInstance:
       propertyPath: parryHitSound
       value: 
       objectReference: {fileID: 8300000, guid: 5dea8a37107c7a24ca8bda72830457ae, type: 3}
+    - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
+      propertyPath: boundsCenter.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8678211183195570326, guid: a86508e32e6eadd409f04823f5ef96f3, type: 3}
       propertyPath: fixedBoxPosition.x
       value: 0

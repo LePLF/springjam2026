@@ -21,9 +21,10 @@ public class playerController : MonoBehaviour
 
     [Header("Movement Boundaries")]
     public Vector2 boundsCenter;
+    public Transform cameraCenter;
     public Vector2 boundsSize;
-    private Vector2 MinBounds => new Vector2(boundsCenter.x - boundsSize.x / 2f, boundsCenter.y - boundsSize.y / 2f);
-    private Vector2 MaxBounds => new Vector2(boundsCenter.x + boundsSize.x / 2f, boundsCenter.y + boundsSize.y / 2f);
+    private Vector2 MinBounds => new Vector2(cameraCenter.position.x - boundsSize.x / 2f, cameraCenter.position.y - boundsSize.y / 2f);
+    private Vector2 MaxBounds => new Vector2(cameraCenter.position.x + boundsSize.x / 2f, cameraCenter.position.y + boundsSize.y / 2f);
 
     [Header("Index")]
     public int playerIndex;
@@ -57,7 +58,8 @@ public class playerController : MonoBehaviour
     private Animator animator;
     private Animator Rotanimator;
     public GameObject sprite;
-    public GameObject handle;   
+    public GameObject handle;
+
 
     private void Awake()
     {
@@ -80,7 +82,7 @@ public class playerController : MonoBehaviour
     public void StartAttack()
     {
         if (isStunned) return;
-        if (!CooldownCheck(attackCooldown, lastAttackTime)) return;
+        if (!CooldownCheck(attackCooldown, ref lastAttackTime)) return;
         //print(playerIndex);
         onAttackMiss.Invoke();
         //print("is Attacking");
@@ -150,7 +152,7 @@ public class playerController : MonoBehaviour
     {
         if (isStunned) return;
         if (isParrying) return;
-        if (!CooldownCheck(parryCooldown, lastParryTime))
+        if (!CooldownCheck(parryCooldown, ref lastParryTime))
         {
             StartCoroutine(TriggerParry());
         }
@@ -165,7 +167,7 @@ public class playerController : MonoBehaviour
         yield break;
     }
 
-    public bool CooldownCheck(float cooldown, float lastActionTime)
+    public bool CooldownCheck(float cooldown, ref float lastActionTime)
     {
         if (Time.time >= lastActionTime + cooldown)
         {
@@ -210,4 +212,6 @@ public class playerController : MonoBehaviour
         Gizmos.DrawWireCube(boundsCenter, boundsSize);
 
     }
+
+
 }
